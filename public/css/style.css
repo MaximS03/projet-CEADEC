@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    background-color: #F1F1F1;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 10px 0;
+    position: fixed;
+}
+
+header h1{
+    color: #FFFFFF;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul li a:link {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #0056A6;
+    margin: 20px 0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #00A651;
+    margin: 15px 0;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #333333;
+    margin: 10px 0;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+/*a {*/
+/*    font-family: 'Open Sans', sans-serif;*/
+/*    font-size: 16px;*/
+/*    color: #0056A6;*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*nav ul li a:hover {*/
+/*    color: #0056A6;*/
+/*    text-decoration: none;*/
+/*    font-size: 16px;*/
+/*    background-color: #ffffff;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #FF0000; /* Couleur d'accent sur survol */
+}
+
+#home, #presentation, #activities, #a-propos, #formations, #services, #publications, #contacts {
+    height: 100vh;
+}
+
+#home {
+    background-image: url('../images/home_background.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#presentation, #formations, #services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+
+
+
+
+
