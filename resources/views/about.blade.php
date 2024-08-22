@@ -18,11 +18,11 @@
 
 <main>
 
-{{--    Le Centre d’Appui au Développement des Compétences (CADEC) est une nouvelle initiative fondée pour répondre aux besoins croissants de développement des compétences dans le monde professionnel. Situé à Lomé, au Togo, le CADEC se consacre à offrir des solutions de formation innovantes et adaptées aux défis actuels du marché du travail.--}}
+{{--    Le Centre d’Appui au Développement des Compétences (CADEC) est une nouvelle initiative fondée pour répondre aux besoins croissants de développement des compétences dans le monde professionnel. Situé à Lomé, au Togo, le CADEC se consacre à offrir des solutions de formations innovantes et adaptées aux défis actuels du marché du travail.--}}
 
-{{--    Notre mission est de doter les individus et les entreprises des outils nécessaires pour réussir dans un environnement en constante évolution. Nous croyons fermement que l'éducation et la formation sont les clés du progrès et de l'innovation. C’est pourquoi nous proposons une gamme de services, allant des formations professionnelles de courte durée aux programmes d'incubation pour les entrepreneurs.--}}
+{{--    Notre mission est de doter les individus et les entreprises des outils nécessaires pour réussir dans un environnement en constante évolution. Nous croyons fermement que l'éducation et la formations sont les clés du progrès et de l'innovation. C’est pourquoi nous proposons une gamme de services, allant des formations professionnelles de courte durée aux programmes d'incubation pour les entrepreneurs.--}}
 
-{{--    En tant qu'organisation naissante, notre vision est de devenir un acteur incontournable dans le domaine de la formation et de l'accompagnement des entreprises, tant au niveau national qu'international. Nous sommes engagés à bâtir un avenir où les compétences et l'expertise locales sont reconnues et valorisées, contribuant ainsi au développement économique et social de notre région.--}}
+{{--    En tant qu'organisation naissante, notre vision est de devenir un acteur incontournable dans le domaine de la formations et de l'accompagnement des entreprises, tant au niveau national qu'international. Nous sommes engagés à bâtir un avenir où les compétences et l'expertise locales sont reconnues et valorisées, contribuant ainsi au développement économique et social de notre région.--}}
 
 </main>
 

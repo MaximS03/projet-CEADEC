@@ -115,7 +115,11 @@ footer a:hover {
 }
 
 #home, #presentation, #activities, #a-propos, #formations, #services, #publications, #contacts {
-    height: 100vh;
+    height: 100dvh;
+}
+
+#temoignages {
+    height: 75dvh;
 }
 
 #home {
@@ -130,10 +134,47 @@ footer a:hover {
 }
 
 #presentation, #formations, #services {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around
+
 }
+
+
+/*.card {*/
+/*}*/
+
+/*.user {*/
+/*    height: 70px;*/
+/*    background-color: #3c7fff;*/
+/*}*/
+
+/*.user .user_img {*/
+/*    background-color: #414141;*/
+/*    transform: translateX(10px) translateY(10px);*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/*.user .user_name {*/
+/*    background-color: #414141;*/
+/*    width: 60px;*/
+/*    height: 15px;*/
+/*    border-width: 10px;*/
+/*    border-radius: 5px;*/
+/*    border-color: #262626;*/
+/*    color: #262626;*/
+/*    font-size: 15px;*/
+/*    font-weight: bold;*/
+/*    transform: translateX(70px) translateY(-35px);*/
+/*}*/
+
+/*.user_message {*/
+/*    border-color: #141414;*/
+/*    background-color: #414141;*/
+/*    transform: translate(5px, 6px);*/
+/*    width: 180px;*/
+/*    height: 130px;*/
+/*    border-radius: 5px;*/
+/*}*/
 
 
 
