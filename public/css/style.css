@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400&display=swap');
 
+/*      #1f221b     */
+
 body {
     font-family: 'Open Sans', sans-serif;
     color: #333333;
@@ -10,7 +12,6 @@ body {
 
 header {
     background-color: transparent;
-    color: #FFFFFF;
     padding: 10px 0;
     position: fixed;
 }
@@ -45,6 +46,23 @@ nav ul li a {
 nav ul li a:link {
     text-decoration: none;
 }
+
+/*      ----------------         */
+/*.navbar {*/
+/*    background-color: transparent;*/
+/*    transition: background-color 0.3s ease;*/
+/*    position: fixed;*/
+/*    width: 100%;*/
+/*    z-index: 1000;*/
+/*}*/
+
+/*.navbar.scrolled {*/
+/*    background-color: rgba(255, 255, 255, 0.9);*/
+/*    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+
+/*      ----------------         */
 
 h1 {
     font-family: 'Montserrat', sans-serif;
@@ -114,7 +132,7 @@ footer a:hover {
     color: #FF0000; /* Couleur d'accent sur survol */
 }
 
-#home, #presentation, #activities, #a-propos, #formations, #services, #publications, #contacts {
+#home, #presentation, #activities, #a-propos, #formations, #services, #publications, #contacts, #about-home {
     height: 100dvh;
 }
 
@@ -133,9 +151,18 @@ footer a:hover {
     margin: 0;
 }
 
-#presentation, #formations, #services {
-
+#about-home {
+    background-image: url('../images/about-background.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
 }
+
+
 
 
 /*.card {*/

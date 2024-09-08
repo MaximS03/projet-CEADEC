@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title> @yield('title') </title>
+    <title>A propos - CADEC</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -17,9 +17,11 @@
 @include('partials.header')
 
 <main>
-    @yield('content')
+    
 </main>
 
+@include('partials.footer')
 
+{{--<script src="{{asset('js/script.js')}}"></script>--}}
 </body>
 </html>

@@ -41,7 +41,7 @@
                 <li><p>Contribuer à l'insertion professionnelle et sociale des jeunes, comme à celle ...</p></li>
             </ul>
 
-            <a href="#" class="btn btn-primary">Lire plus</a>
+            <a href="{{url('/about')}}" class="btn btn-primary">Lire plus</a>
 {{--            <h3>Objectifs</h3>--}}
 {{--            <!-- Objectifs à court et long terme -->--}}
         </div>
@@ -115,7 +115,7 @@
                 Notre objectif est de favoriser la création et la croissance de nouvelles entreprises innovantes dans la région.
             </div>
             <div class="col-sm-4">
-                <h3>Recherche-Action & Innovation</h3>
+                <h3>Recherche-Action & Innovation </h3>
                 Le CADEC s'engage à promouvoir l'innovation à travers la recherche-action. Nous collaborons avec
                 des entreprises, des institutions académiques, et des organisations pour mener des projets de recherche appliquée
                 qui répondent aux besoins du marché. {{--Ces initiatives visent à développer de nouvelles idées,--}}
@@ -126,7 +126,7 @@
             <a href="#" class="btn btn-primary btn-lg">Lire plus</a>
         </div>
 
-        <div class="mt-2 p-4 rounded w-50" style="background-color: rgba(62,135,204,0.68)">
+        <div class="my-3 p-2 rounded  w-50" style="background-color: rgba(62,135,204,0.68)">
             <h3 style="color: #00519d">Pourquoi choisir nos services ?</h3>
             <div class="d-flex align-items-center justify-content-center">
                 <div class="w-50">
@@ -134,9 +134,10 @@
                     <h6 style="font-weight: 700">- Approche personnalisée</h6>
                     <h6 style="font-weight: 700">- Réseau et ressources</h6>
                 </div>
-                <img src="{{ asset('images/idea.webp') }}" alt="#" class="w-25">
+                <img src="{{ asset('images/idea.webp') }}" alt="#" class="w-25 d-none d-md-block">
             </div>
         </div>
+
     </section>
 
     <section id="publications" class="container container-fluid d-flex flex-column justify-content-around">

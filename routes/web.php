@@ -10,6 +10,22 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/presentation', function () {
+    return view('presentation');
+});
+Route::get('/formations' , function () {
+    return view('formations');
+});
+Route::get('/services', function () {
+    return view('services');
+});
+Route::get('/realisations', function () {
+    return view('realisations');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+
 
 
 Route::middleware(['auth'])->group(function () {
