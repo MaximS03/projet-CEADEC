@@ -13,14 +13,17 @@ Route::get('/', function () {
 Route::get('/presentation', function () {
     return view('presentation');
 });
-Route::get('/formations' , function () {
-    return view('formations');
+Route::get('/publication', function () {
+    return view('publication');
 });
-Route::get('/services', function () {
-    return view('services');
+Route::get('/formation' , function () {
+    return view('formation');
 });
-Route::get('/realisations', function () {
-    return view('realisations');
+Route::get('/service', function () {
+    return view('service');
+});
+Route::get('/realisation', function () {
+    return view('realisation');
 });
 Route::get('/contact', function () {
     return view('contact');

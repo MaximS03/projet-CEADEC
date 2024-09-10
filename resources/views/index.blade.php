@@ -41,7 +41,7 @@
                 <li><p>Contribuer à l'insertion professionnelle et sociale des jeunes, comme à celle ...</p></li>
             </ul>
 
-            <a href="{{url('/about')}}" class="btn btn-primary">Lire plus</a>
+            <a href="{{url('/presentation#presentation_learn_more')}}" class="btn btn-primary">Lire plus</a>
 {{--            <h3>Objectifs</h3>--}}
 {{--            <!-- Objectifs à court et long terme -->--}}
         </div>
@@ -67,19 +67,19 @@
     <section id="formations" class="container container-fluid d-flex flex-column justify-content-around">
         <h2>Formations</h2>
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col text-center">
                 <h3>Formations de courte durée</h3>
                 <p>Les formations de courte durée et les séminaires sont organisées en unités de
                     formation et peuvent être « délocalisées» c’est-à-dire réalisées sur le site du
                     demandeur et dans ce cas, leurs durées et leurs contenus sont définis en fonction
                     des besoins exprimés.</p>
             </div>
-            <div class="col-sm-4">
+            <div class="col text-center">
                 <h3>Formations diplômantes</h3>
                 <p>Les formations diplômantes passent par le développement de la personnalité de
                     l’apprenant, la planification du développement de sa carrière.</p>
             </div>
-            <div class="col-sm-4">
+            <div class="col text-center">
                 <h3>Séminaires</h3>
                 <p>Une série de séminaires destinés à approfondir des sujets spécifiques et à fournir
                     aux participants des compétences pratiques et directement applicables dans leur domaine professionnel vous est proposée.
@@ -89,24 +89,24 @@
         </div>
         <div >
             <a href="#" class="btn btn-primary btn-lg">Lire plus</a>
-            <a href="#" class="btn btn-outline-primary btn-lg">Modalités d'inscription</a>
+            <a href="{{url('/formation#modalite_inscription')}}" class="btn btn-outline-primary btn-lg">Modalités d'inscription</a>
         </div>
     </section>
 
     <section id="services" class="container container-fluid d-flex flex-column justify-content-around">
         <h2>Services</h2>
-        <h5>Le Centre d’Appui au Développement des Compétences (CADEC) propose une gamme
+        <h6>Le Centre d’Appui au Développement des Compétences (CADEC) propose une gamme
             de services conçus pour soutenir les individus et les entreprises dans leur développement
             et leur croissance. Nos services sont adaptés aux besoins spécifiques de chaque client,
-            garantissant des solutions personnalisées et efficaces.</h5>
+            garantissant des solutions personnalisées et efficaces.</h6>
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col text-center">
                 <h3>Appui-Conseil &/Accompagnement</h3>
                 <p>Nous proposons des services d’appui-conseil aux entreprises et aux institutions souhaitant améliorer
                     leurs performances ou relever de nouveaux défis. Nous accompagnons
                     nos clients, en leur fournissant des conseils sur mesure et des solutions pratiques.</p>
             </div>
-            <div class="col-sm-4">
+            <div class="col text-center">
                 <h3>Incubation d'entreprises</h3>
                 Le CADEC offre un programme d'incubation dédié aux jeunes entrepreneurs et startups. Ce programme
                 fournit un soutien complet allant de la phase d'idée à la réalisation du projet. {{-- Les services incluent--}}
@@ -114,7 +114,7 @@
 {{--                et des opportunités de financement.--}}
                 Notre objectif est de favoriser la création et la croissance de nouvelles entreprises innovantes dans la région.
             </div>
-            <div class="col-sm-4">
+            <div class="col text-center">
                 <h3>Recherche-Action & Innovation </h3>
                 Le CADEC s'engage à promouvoir l'innovation à travers la recherche-action. Nous collaborons avec
                 des entreprises, des institutions académiques, et des organisations pour mener des projets de recherche appliquée
@@ -146,21 +146,21 @@
             les recherches et les meilleures pratiques dans divers domaines. Ces documents sont conçus pour
             informer, éduquer et inspirer les professionnels, les chercheurs, les étudiants, et le grand public.</p>
        <div class="row">
-           <div class="col-sm-4">
+           <div class="col text-center">
                <h3>Articles</h3>
                Nos articles abordent une variété de sujets d'actualité, tels que l'innovation,
                le développement des compétences, et les tendances du marchéRédigés par des experts
                et des professionnels du secteur, ces articles
                offrent des analyses approfondies et des perspectives nouvelles sur les défis contemporains.
            </div>
-           <div class="col-sm-4">
+           <div class="col text-center">
                <h3>Études de cas</h3>
                Nous publions régulièrement des études de cas basées sur des projets réels,
                illustrant comment les théories et les concepts sont appliqués dans des contextes pratiques.
                Ces études fournissent des exemples concrets de résolution de problèmes
                et de prise de décision dans différents secteurs d’activité.
            </div>
-           <div class="col-sm-4">
+           <div class="col text-center">
                <h3>Rapports</h3>
                Nos rapports institutionnels comprennent des résultats de recherche, des analyses de marché,
                et des recommandations stratégiques. Ils sont destinés à guider les décideurs,
@@ -199,12 +199,23 @@
 {{--        </div>--}}
 {{--    </section>--}}
 
-    <section id="contacts" class="container container-fluid d-flex flex-column justify-content-around">
+    <section id="contacts" class="container container-fluid d-flex flex-column justify-content-around h-auto m-0">
         <h2>Contacts</h2>
         <section>
             <h3>Coordonnées</h3>
             <p>Adresse, téléphone, email.</p>
         </section>
+        <div class="contact-map-area section-gap">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="google-map alignwide">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6765.648675151253!2d1.1675395!3d6.2073934!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTInMjYuOSJOIDHCsDA5JzU2LjYiRQ!5e1!3m2!1sfr!2stg!4v1725999666397!5m2!1sfr!2stg" width="1300" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <section>
             <h3>Formulaire de contact</h3>
             <form action="submit_form.php" method="post">
@@ -219,10 +230,6 @@
 
                 <button type="submit">Envoyer</button>
             </form>
-        </section>
-        <section>
-            <h3>Localisation</h3>
-            <!-- Carte interactive avec l’emplacement du CADEC -->
         </section>
     </section>
 </main>

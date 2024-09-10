@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>A propos - CADEC</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -33,17 +33,22 @@
 
     <section class="container">
 
-        <div>
-            <h2>Présentation du CADEC</h2>
-            <p>
-                Le Centre d’Appui au Développement des Compétences (CADEC) est un programme de l’ONG International
-                Association of Educators for World Peace (IAEWP). Le centre intervient dans plusieurs domaines, notamment le
-                développement de la personnalité, le leadership, la planification de carrière et l’accompagnement à
-                l’insertion professionnelle ou à la reconversion de carrière.
-            </p>
+        <div class="d-flex align-items-center" style="height: 75dvh">
+
+            <div class="">
+                <h2>Présentation du CADEC</h2>
+                <p class="text">
+                    Le Centre d’Appui au Développement des Compétences (CADEC) est un programme de l’ONG International
+                    Association of Educators for World Peace (IAEWP). Le centre intervient dans plusieurs domaines, notamment le
+                    développement de la personnalité, le leadership, la planification de carrière et l’accompagnement à
+                    l’insertion professionnelle ou à la reconversion de carrière.
+                </p>
+            </div>
+            <img src="{{asset('images/img_cadec.webp')}}" alt="" class="w-50 rounded m-5 bg-dark" >
+
         </div>
 
-        <div>
+        <div class="" style="height: 75dvh">
             <h2>Pourquoi un Centre d’Appui au Développement des Compétences ?</h2>
             <p>
                 Le Togo, comme beaucoup de pays africains, fait face à des défis sociaux importants, notamment en matière de
@@ -54,31 +59,33 @@
             </p>
         </div>
 
-        <div>
-            <h2>Notre Vision</h2>
-            <p>
-                Notre vision est de faire du Togo un pays où les jeunes identifient leurs potentialités, planifient leur vie
-                tant sur le plan personnel que professionnel, et développent les compétences nécessaires pour intégrer la
-                vie professionnelle plus facilement.
-            </p>
-        </div>
+        <div class="row" id="presentation_learn_more">
+            <div class="col">
+                <h2>Notre Vision</h2>
+                <p>
+                    Notre vision est de faire du Togo un pays où les jeunes identifient leurs potentialités, planifient leur vie
+                    tant sur le plan personnel que professionnel, et développent les compétences nécessaires pour intégrer la
+                    vie professionnelle plus facilement.
+                </p>
+            </div>
 
-        <div>
-            <h2>Notre Mission</h2>
-            <p>
-                La mission du CADEC est de faciliter le développement des compétences comportementales et techniques des
-                jeunes afin d’accroître leur employabilité et leur insertion professionnelle.
-            </p>
-        </div>
+            <div class="col">
+                <h2>Notre Mission</h2>
+                <p>
+                    La mission du CADEC est de faciliter le développement des compétences comportementales et techniques des
+                    jeunes afin d’accroître leur employabilité et leur insertion professionnelle.
+                </p>
+            </div>
 
-        <div>
-            <h2>Objectifs du CADEC</h2>
-            <ul>
-                <li>Contribuer au développement personnel des jeunes</li>
-                <li>Faciliter la planification de carrière</li>
-                <li>Faciliter la professionnalisation et l’insertion professionnelle</li>
-                <li>Accompagner les jeunes dans la mise en œuvre de leur plan de carrière</li>
-            </ul>
+            <div class="col">
+                <h2>Objectifs du CADEC</h2>
+                <ul>
+                    <li>Contribuer au développement personnel des jeunes</li>
+                    <li>Faciliter la planification de carrière</li>
+                    <li>Faciliter la professionnalisation et l’insertion professionnelle</li>
+                    <li>Accompagner les jeunes dans la mise en œuvre de leur plan de carrière</li>
+                </ul>
+            </div>
         </div>
 
         <div>

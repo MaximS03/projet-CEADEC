@@ -2,6 +2,8 @@
 
 /*      #1f221b     */
 
+
+
 body {
     font-family: 'Open Sans', sans-serif;
     color: #333333;
@@ -45,6 +47,10 @@ nav ul li a {
 
 nav ul li a:link {
     text-decoration: none;
+}
+
+.navbar {
+    z-index: 9999;
 }
 
 /*      ----------------         */
@@ -132,7 +138,7 @@ footer a:hover {
     color: #FF0000; /* Couleur d'accent sur survol */
 }
 
-#home, #presentation, #activities, #a-propos, #formations, #services, #publications, #contacts, #about-home {
+#home, #presentation, #activities, #a-propos, #formations, #services, #publications, #about-home {
     height: 100dvh;
 }
 
@@ -160,6 +166,17 @@ footer a:hover {
     align-items: center;
     justify-content: center;
     margin: 0;
+}
+
+.col {
+    border: 4px solid rgba(51, 51, 51, 0.44);
+    margin: 5px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#formations .row .col h3:hover {
+    color: maroon;
 }
 
 
@@ -203,6 +220,54 @@ footer a:hover {
 /*    border-radius: 5px;*/
 /*}*/
 
+
+
+/* ----- page realisation ----- */
+
+.realisation-card {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #d1d5db, #e5e7eb);
+    color: #475569;
+    border: 4px solid #d1d5db;
+    padding: 1rem;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.realisation-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.realisation-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.realisation-card button {
+    background-color: #d1d5db;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+.realisation-card button:hover {
+    background-color: #475569;
+    color: #fff;
+}
+
+/* ----- end of page realisation ----- */
+
+.section-gap {
+    padding: 50px 0;
+}
+
+.google-map.alignwide iframe{
+    border-radius: 15px;
+}
 
 
 
