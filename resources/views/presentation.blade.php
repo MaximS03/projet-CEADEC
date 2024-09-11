@@ -17,7 +17,7 @@
 @include('partials.header')
 
 <main>
-    <section id="about-home" class="container-fluid">
+    <div id="about-home" class="container-fluid">
         <div class="h-50 w-50 d-flex flex-column justify-content-around">
             <div>
                 <h1>CADEC : </h1>
@@ -29,7 +29,7 @@
                 <a href="{{url('#')}}" class="btn btn-outline-primary btn-lg">Que faisons-nous ?</a>
             </div>
         </div>
-    </section>
+    </div>
 
     <section class="container">
 
@@ -44,11 +44,11 @@
                     l’insertion professionnelle ou à la reconversion de carrière.
                 </p>
             </div>
-            <img src="{{asset('images/img_cadec.webp')}}" alt="" class="w-50 rounded m-5 bg-dark" >
+            <img src="{{asset('images/img_cadec.webp')}}" alt="" class="w-50 m-5 img_presentation2"  style="border-radius: 10px; border: 2px solid rgba(51,51,51,0.65); box-shadow: 0 0 15px #3d5d23; animation: 0.5s ease-in-out">
 
         </div>
 
-        <div class="" style="height: 75dvh">
+        <div class="d-flex flex-column justify-content-center" style="height: 75dvh">
             <h2>Pourquoi un Centre d’Appui au Développement des Compétences ?</h2>
             <p>
                 Le Togo, comme beaucoup de pays africains, fait face à des défis sociaux importants, notamment en matière de

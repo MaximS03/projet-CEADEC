@@ -6,6 +6,9 @@
     <title>Bienvenue - CADEC</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -17,12 +20,12 @@
 @include('partials.header')
 
 <main>
-    <section id="home" class="container-fluid">
+    <div id="home" class="container-fluid">
         <div >
             <h1>Bienvenue au CADEC</h1>
             <p>Présentation du centre avec un appel à l'action.</p>
         </div>
-    </section>
+    </div>
 
     <section id="presentation" class="container container-fluid d-flex flex-column justify-content-around">
         <div class="flex">
@@ -69,7 +72,7 @@
         <div class="row">
             <div class="col text-center">
                 <h3>Formations de courte durée</h3>
-                <p>Les formations de courte durée et les séminaires sont organisées en unités de
+                <p>Les formations de courte durée sont organisées en unités de
                     formation et peuvent être « délocalisées» c’est-à-dire réalisées sur le site du
                     demandeur et dans ce cas, leurs durées et leurs contenus sont définis en fonction
                     des besoins exprimés.</p>
@@ -88,7 +91,7 @@
             </div>
         </div>
         <div >
-            <a href="#" class="btn btn-primary btn-lg">Lire plus</a>
+            <a href="{{url('/formation')}}" class="btn btn-primary btn-lg">Lire plus</a>
             <a href="{{url('/formation#modalite_inscription')}}" class="btn btn-outline-primary btn-lg">Modalités d'inscription</a>
         </div>
     </section>
@@ -198,40 +201,6 @@
 {{--            </div>--}}
 {{--        </div>--}}
 {{--    </section>--}}
-
-    <section id="contacts" class="container container-fluid d-flex flex-column justify-content-around h-auto m-0">
-        <h2>Contacts</h2>
-        <section>
-            <h3>Coordonnées</h3>
-            <p>Adresse, téléphone, email.</p>
-        </section>
-        <div class="contact-map-area section-gap">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="google-map alignwide">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6765.648675151253!2d1.1675395!3d6.2073934!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTInMjYuOSJOIDHCsDA5JzU2LjYiRQ!5e1!3m2!1sfr!2stg!4v1725999666397!5m2!1sfr!2stg" width="1300" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <section>
-            <h3>Formulaire de contact</h3>
-            <form action="submit_form.php" method="post">
-                <label for="name">Nom :</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message :</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <button type="submit">Envoyer</button>
-            </form>
-        </section>
-    </section>
 </main>
 
 @include('partials.footer')

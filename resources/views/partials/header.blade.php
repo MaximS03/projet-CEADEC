@@ -1,19 +1,5 @@
 <header class="w-100">
-{{--    <nav class="navbar">--}}
-{{--        <h1>CADEC</h1>--}}
-{{--        <ul>--}}
-{{--            <li><a href="{{url('/')}}">Accueil</a></li>--}}
-{{--            <li><a href="{{ url('#presentation') }}">Présentation du CADEC</a></li>--}}
-{{--            <li><a href="#actualites">Actualités et événements</a></li>--}}
-{{--            <li><a href="{{url('/about')}}">À propos</a></li>--}}
-{{--            <li><a href="{{url('/formations')}}">Formations</a></li>--}}
-{{--            <li><a href="{{url('/services')}}">Services</a></li>--}}
-{{--            <li><a href="{{url('/publications')}}">Publications</a></li>--}}
-{{--            <li><a href="{{url('/contact')}}">Contacts</a></li>--}}
-{{--        </ul>--}}
-{{--    </nav>--}}
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light p-4">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-2">
         <a class="navbar-brand" href="{{ url('/') }}">CADEC</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

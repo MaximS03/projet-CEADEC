@@ -269,6 +269,20 @@ footer a:hover {
     border-radius: 15px;
 }
 
+.navbar .navbar-brand {
+    font-family: "Crimson Text", serif;
+    font-size: 32px;
+    color: #0056A6 !important;
+    font-weight: 700;
+}
 
+.footer-container {
+    background: #100546;
+    color: #fff;
+}
+
+.footer-top {
+    padding: 50px 0 60px;
+}
 
 
