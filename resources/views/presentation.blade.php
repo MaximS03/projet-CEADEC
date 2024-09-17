@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>A propos - CADEC</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('images/CADEC_icon.ico') }}" type="image/x-icon">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -17,7 +17,7 @@
 @include('partials.header')
 
 <main>
-    <div id="about-home" class="container-fluid">
+    <div id="about-home" class="container-fluid ">
         <div class="h-50 w-50 d-flex flex-column justify-content-around">
             <div>
                 <h1>CADEC : </h1>
@@ -33,7 +33,7 @@
 
     <section class="container">
 
-        <div class="d-flex align-items-center" style="height: 75dvh">
+        <div class="d-flex align-items-center" style="height: 50dvh">
 
             <div class="">
                 <h2>Présentation du CADEC</h2>
@@ -44,7 +44,7 @@
                     l’insertion professionnelle ou à la reconversion de carrière.
                 </p>
             </div>
-            <img src="{{asset('images/img_cadec.webp')}}" alt="" class="w-50 m-5 img_presentation2"  style="border-radius: 10px; border: 2px solid rgba(51,51,51,0.65); box-shadow: 0 0 15px #3d5d23; animation: 0.5s ease-in-out">
+            <img src="{{asset('images/img_cadec.webp')}}" alt="" class="m-5 img_presentation2"  style="border-radius: 10px; border: 2px solid rgba(51,51,51,0.65); box-shadow: 0 0 15px #3d5d23; animation: 0.5s ease-in-out">
 
         </div>
 

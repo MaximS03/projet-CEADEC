@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>Publications - CADEC</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('images/CADEC_icon.ico') }}" type="image/x-icon">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -17,13 +17,20 @@
 @include('partials.header')
 
 <main>
+    <div id="presentation-home" class="container-fluid ">
+        <div class="h-50 w-50 d-flex flex-column justify-content-around">
+        </div>
+    </div>
     <div class="container mt-4">
-        <h1 class="text-center mb-4">Publications du CADEC</h1>
-        <p class="text-center">
+{{--        <h1 class="text-center mb-4"></h1>--}}
+{{--        <p class="text-center">--}}
+{{--            --}}
+{{--        </p>--}}
+
+        <p>
             Retrouvez ici toutes les publications du CADEC : articles, études de cas, rapports et autres documents utiles
             pour le développement des compétences et l’accompagnement professionnel.
         </p>
-
         <div class="row mb-4">
             <div class="col-md-4">
                 <select class="form-control" id="filterType">
