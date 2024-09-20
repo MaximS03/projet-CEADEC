@@ -3,13 +3,14 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Bienvenue - CADEC</title>
+    <title>Bienvenue - CEADEC</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="shortcut icon" href="{{ asset('images/CADEC_icon.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('images/CEADEC.ico') }}" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -22,15 +23,15 @@
 <main>
     <div id="home" class="container-fluid">
         <div class="home_text">
-            <h1>Bienvenue au CADEC</h1>
+            <h1 style="font-size: 36px;">Bienvenue au CEADEC</h1>
             <p >Présentation du centre avec un appel à l'action.</p>
         </div>
     </div>
 
     <section id="presentation" class="container container-fluid d-flex flex-column justify-content-around">
         <div class="flex">
-            <h2>Présentation du CADEC</h2>
-            <h5>Le Centre d’Appui au Développement des Compétences (CADEC) est une nouvelle initiative fondée pour répondre aux besoins croissants de développement des compétences dans le monde professionnel.</h5>
+            <h2>Présentation du CEADEC</h2>
+            <h5>Le Centre d’Appui au Développement des Compétences (CEADEC) est une nouvelle initiative fondée pour répondre aux besoins croissants de développement des compétences dans le monde professionnel.</h5>
         </div>
         <div>
             <h3>Vision</h3>
@@ -98,7 +99,7 @@
 
     <section id="services" class="container container-fluid d-flex flex-column justify-content-around">
         <h2>Services</h2>
-        <h6>Le Centre d’Appui au Développement des Compétences (CADEC) propose une gamme
+        <h6>Le Centre d’Appui au Développement des Compétences (CEADEC) propose une gamme
             de services conçus pour soutenir les individus et les entreprises dans leur développement
             et leur croissance. Nos services sont adaptés aux besoins spécifiques de chaque client,
             garantissant des solutions personnalisées et efficaces.</h6>
@@ -111,7 +112,7 @@
             </div>
             <div class="col text-center">
                 <h3>Incubation d'entreprises</h3>
-                Le CADEC offre un programme d'incubation dédié aux jeunes entrepreneurs et startups. Ce programme
+                Le CEADEC offre un programme d'incubation dédié aux jeunes entrepreneurs et startups. Ce programme
                 fournit un soutien complet allant de la phase d'idée à la réalisation du projet. {{-- Les services incluent--}}
 {{--                un mentorat personnalisé, l'accès à des ressources techniques, des conseils en gestion d'entreprise,--}}
 {{--                et des opportunités de financement.--}}
@@ -119,7 +120,7 @@
             </div>
             <div class="col text-center">
                 <h3>Recherche-Action & Innovation </h3>
-                Le CADEC s'engage à promouvoir l'innovation à travers la recherche-action. Nous collaborons avec
+                Le CEADEC s'engage à promouvoir l'innovation à travers la recherche-action. Nous collaborons avec
                 des entreprises, des institutions académiques, et des organisations pour mener des projets de recherche appliquée
                 qui répondent aux besoins du marché. {{--Ces initiatives visent à développer de nouvelles idées,--}}
 {{--                technologies, et pratiques qui peuvent être mises en œuvre directement au sein des entreprises et des communautés.--}}
@@ -128,11 +129,10 @@
         <div >
             <a href="#" class="btn btn-primary btn-lg">Lire plus</a>
         </div>
-
-        <div class="my-3 p-2 rounded  w-50" style="background-color: rgba(62,135,204,0.68)">
+        <div class="my-3 p-2 rounded pourquoi_nous_choisir"  style="background-color: rgba(62,135,204,0.68)">
             <h3 style="color: #00519d">Pourquoi choisir nos services ?</h3>
             <div class="d-flex align-items-center justify-content-center">
-                <div class="w-50">
+                <div class="pourquoi_nous_choisir_text_part">
                     <h6 style="font-weight: 700">- Expertise et expérience</h6>
                     <h6 style="font-weight: 700">- Approche personnalisée</h6>
                     <h6 style="font-weight: 700">- Réseau et ressources</h6>
@@ -145,25 +145,25 @@
 
     <section id="publications" class="container container-fluid d-flex flex-column justify-content-around">
         <h2>Publications</h2>
-        <p>Le CADEC met à disposition une série de publications qui visent à partager les connaissances,
+        <p>Le CEADEC met à disposition une série de publications qui visent à partager les connaissances,
             les recherches et les meilleures pratiques dans divers domaines. Ces documents sont conçus pour
             informer, éduquer et inspirer les professionnels, les chercheurs, les étudiants, et le grand public.</p>
-       <div class="row">
-           <div class="col text-center">
+       <div class="row publication-home-row">
+           <div class="col text-center publication-home-col">
                <h3>Articles</h3>
                Nos articles abordent une variété de sujets d'actualité, tels que l'innovation,
                le développement des compétences, et les tendances du marchéRédigés par des experts
                et des professionnels du secteur, ces articles
                offrent des analyses approfondies et des perspectives nouvelles sur les défis contemporains.
            </div>
-           <div class="col text-center">
+           <div class="col text-center publication-home-col">
                <h3>Études de cas</h3>
                Nous publions régulièrement des études de cas basées sur des projets réels,
                illustrant comment les théories et les concepts sont appliqués dans des contextes pratiques.
                Ces études fournissent des exemples concrets de résolution de problèmes
                et de prise de décision dans différents secteurs d’activité.
            </div>
-           <div class="col text-center">
+           <div class="col text-center publication-home-col">
                <h3>Rapports</h3>
                Nos rapports institutionnels comprennent des résultats de recherche, des analyses de marché,
                et des recommandations stratégiques. Ils sont destinés à guider les décideurs,

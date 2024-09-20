@@ -3,9 +3,9 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Réalisations - CADEC</title>
+    <title>Réalisations - CEADEC</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="shortcut icon" href="{{ asset('images/CADEC_icon.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('images/CEADEC_icon.ico') }}" type="image/x-icon">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -17,9 +17,9 @@
 
 <main>
     <div class="container mt-4">
-        <h1 class="text-center mb-4">Quelques réalisations du CADEC</h1>
+        <h1 class="text-center mb-4">Quelques réalisations du promoteur du centre</h1>
         <p>
-            Découvrez quelques réalisations et collaborations du CADEC avec différentes organisations et institutions
+            Découvrez quelques réalisations du promoteur du centre avec différentes organisations et institutions
             pour le développement de compétences, la gouvernance locale et l'insertion socio-professionnelle.
         </p>
 
@@ -76,7 +76,7 @@
                     <a href="https://loeildafrique.tg/emploi-et-insertion-socio-professionnelle-du-jeune-diplome" target="_blank">
                         <img src="{{ asset('images/5.webp') }}" alt="Emploi des jeunes diplômés">
                         <div class="text-lg font-bold capitalize">Insertion socio-professionnelle</div>
-                        <div>Le CADEC accompagne les jeunes diplômés dans leur insertion socio-professionnelle.</div>
+                        <div>Le CEADEC accompagne les jeunes diplômés dans leur insertion socio-professionnelle.</div>
                     </a>
                 </div>
             </div>

@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\FormationController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\PublicationController;
+use App\Http\Controllers\ContactController;
 
 Route::get('/', function () {
     return view('index');
@@ -28,6 +29,8 @@ Route::get('/realisation', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+Route::post('/submit-form', [ContactController::class, 'sendContactForm']);
+
 
 
 

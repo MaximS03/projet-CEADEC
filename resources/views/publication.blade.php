@@ -3,9 +3,9 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Publications - CADEC</title>
+    <title>Publications - CEADEC</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="shortcut icon" href="{{ asset('images/CADEC_icon.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('images/CEADEC_icon.ico') }}" type="image/x-icon">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -17,7 +17,7 @@
 @include('partials.header')
 
 <main>
-    <div id="presentation-home" class="container-fluid ">
+    <div id="publication-home" class="container-fluid ">
         <div class="h-50 w-50 d-flex flex-column justify-content-around">
         </div>
     </div>
@@ -28,7 +28,7 @@
 {{--        </p>--}}
 
         <p>
-            Retrouvez ici toutes les publications du CADEC : articles, études de cas, rapports et autres documents utiles
+            Retrouvez ici toutes les publications du CEADEC : articles, études de cas, rapports et autres documents utiles
             pour le développement des compétences et l’accompagnement professionnel.
         </p>
         <div class="row mb-4">
@@ -75,8 +75,8 @@
                 <div class="card h-100">
                     <div class="card-body">
                         <h5 class="card-title">Rapport sur les programmes de formation</h5>
-                        <p class="card-text">Ce rapport présente les résultats des programmes de formation menés par le CADEC en 2024...</p>
-                        <p><strong>Auteur :</strong> CADEC</p>
+                        <p class="card-text">Ce rapport présente les résultats des programmes de formation menés par le CEADEC en 2024...</p>
+                        <p><strong>Auteur :</strong> CEADEC</p>
                         <p><strong>Date :</strong> 5 juillet 2024</p>
                         <a href="{{ asset('publications/rapport1.pdf') }}" target="_blank" class="btn btn-primary">Lire le rapport</a>
                     </div>

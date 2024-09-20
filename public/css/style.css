@@ -2,8 +2,6 @@
 
 /*      #1f221b     */
 
-
-
 body {
     font-family: 'Open Sans', sans-serif;
     color: #333333;
@@ -13,14 +11,15 @@ body {
 }
 
 header {
-    /*background-color: rgba(0, 0, 0, 0.7);*/
+    background-color: rgba(0, 0, 0, 0.62);
     padding: 0;
     position: fixed;
+    top: 0;
     z-index: 1000;
 }
 
 header h1{
-    color: #590808;
+    /*color: #590808;*/
 }
 
 nav {
@@ -44,13 +43,18 @@ nav ul li a {
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
-    background-color: #00A651;
-    border: 2px solid #000;
     border-radius: 10px;
+    font-family: 'Cormorant SC SemiBold', sans-serif;
 }
 
 nav ul li a:link {
     text-decoration: none;
+}
+
+.nav-item.active .nav-link {
+    background-color: #0056A6; /* couleur de fond */
+    color: white; /* couleur du texte */
+    font-weight: bold; /* mettre le texte en gras */
 }
 
 /*      ----------------         */
@@ -72,28 +76,24 @@ nav ul li a:link {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 36px;
     color: #0056A6;
     margin: 20px 0;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
     color: #00A651;
     margin: 15px 0;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
     color: #333333;
     margin: 10px 0;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
     color: #333333;
     line-height: 1.5;
     margin: 10px 0;
@@ -136,7 +136,7 @@ footer a:hover {
 }
 
 #home, #presentation, #activities, #a-propos, #formations, #services, #publications {
-    height: auto;
+    height: 100dvh;
 }
 
 /*#temoignages {*/
@@ -160,7 +160,7 @@ footer a:hover {
 
 .home_text {
     padding: 2em;
-    background-color: rgba(30, 30, 30, 0.5) !important;
+    background-color: rgba(30, 30, 30, 0.74) !important;
     backdrop-filter: blur(8px);
     border: 2px solid #000;
     border-radius: 5px 45px 10px 45px;
@@ -316,10 +316,11 @@ footer a:hover {
 
 /* ----- end of page realisation ----- */
 
-/* ----- About ----- */
+/* ----- Presentation ----- */
 
-#about-home {
-    background-image: url('../images/about-background.webp');
+#presentation-home {
+    background: linear-gradient(rgba(27, 28, 31, 0.5), rgba(27, 28, 31, 0.5)),
+    url('../images/about-background.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -334,12 +335,24 @@ footer a:hover {
     width: 400px;
 }
 
+.presentation {
+    padding: 4rem   0;
+}
 
-/* ----- End of About ----- */
+.presentation-home-element {
+    height: 50%;
+    width: 50%;
+}
 
-/* ----- Presentation ----- */
 
-#presentation-home {
+
+
+
+/* ----- End of Presentation ----- */
+
+/* ----- Publication ----- */
+
+#publication-home {
     background-image: url('../images/news_pic.webp');
     background-size: cover;
     background-position: center;
@@ -351,22 +364,154 @@ footer a:hover {
     height: 50dvh;
 }
 
-#presentation {
-    padding: px;
+.publication-home-row {
+
 }
 
 
-/* ----- End of Presentation ----- */
+
+/* ----- End of Publication ----- */
+
+/* ----- Service ----- */
+
+.pourquoi_nous_choisir, .pourquoi_nous_choisir_text_part {
+    width: 50%;
+}
 
 
-/* ----- footer ----- */
-.section-gap {
-    padding: 50px 0;
+
+
+
+/* ----- End of Service ----- */
+
+
+/* ----- Contact ----- */
+
+#contacts {
+    /*padding: 5rem 0;*/
+}
+
+.home-contact {
+    margin: 5rem 0 0 0;
+    height: 25dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .google-map.alignwide iframe{
     border-radius: 15px;
 }
+
+.section-gap {
+    padding: 10px 0;
+}
+
+.contact-coordonee {
+    width: 100%;
+    padding: 2rem 0;
+
+}
+.contact-card {
+    width: 300px;
+    height: 100px;
+    background: rgb(249, 253, 212) !important;
+    transition: all 0.4s;
+    border-radius: 15px !important;
+    box-shadow: 0 0 15px 3px rgba(45, 45, 45, 0.7);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact-card:hover {
+    border-radius: 15px;
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 0 0 15px 3px  rgba(45, 45, 45, 0.7);
+    background: rgb(249, 253, 212) !important;
+}
+
+.first-content {
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    border-radius: 15px;
+}
+
+.contact-card:hover .first-content {
+    height: 0;
+    opacity: 0;
+}
+
+.second-content {
+    height: 0;
+    width: 100%;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: all 0.4s;
+    font-size: 0;
+    transform: rotate(90deg) scale(-1);
+}
+
+.contact-card:hover .second-content {
+    opacity: 1;
+    height: 100%;
+    font-size: 25px;
+    transform: rotate(0deg);
+}
+
+.formulaire-contact {
+}
+
+.formulaire-contact form {
+    display: flex;
+    flex-direction: column;
+    height: 450px;;
+    padding: 1rem 0;
+}
+
+.formulaire-contact form label {
+
+}
+
+.formulaire-contact form input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #000000 !important;
+}
+
+.formulaire-contact form textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+}
+
+.formulaire-contact form button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 150px;
+    align-self: center;
+    background-color: rgba(53, 105, 218, 0.82);
+    font-family: 'Roboto', serif;
+    font-weight: 500;
+    font-size: 20px ;
+    border: none;
+}
+
+
+/* ----- End of Contact ----- */
+
+
+/* ----- footer ----- */
+
 
 .navbar .navbar-brand {
     font-family: "Crimson Text", serif;
@@ -384,6 +529,61 @@ footer a:hover {
     padding: 50px 0 60px;
 }
 
+.footer-widget .footer-logo {
+    margin-bottom: 10px;
+}
+
+.footer-widget .social-share {
+    display: flex;
+    list-style: none;
+}
+
+.explore-widget .inner ul {
+    list-style: none;
+}
+
+.information-list {
+    list-style: none;
+}
+
 /* ----- end footer ----- */
 
 
+@media only screen and (max-width: 768px) {
+    .home_text h1 {
+        font-size: 20px; !important;
+    }
+    #home, #presentation-home {
+        height: 100dvh;
+    }
+    .presentation-home-element {
+        height: 100%;
+        width: 100%;
+    }
+    #presentation_learn_more {
+        flex-direction: column;
+    }
+    .publication-home-row {
+        flex-direction: column;
+    }
+    .publication-home-col {
+        padding: 5px;
+    }
+    .pourquoi_nous_choisir, .pourquoi_nous_choisir_text_part {
+        width: 100%;
+    }
+    #presentation, #activities, #formations, #services, #publications {
+       height: auto;
+    }
+
+
+    h1{
+        /*font-size: ;*/
+    }
+    h2{
+        /*font-size: ;*/
+    }
+    h3{
+        font-size: 1.4rem !important;
+    }
+}

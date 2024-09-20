@@ -5,28 +5,28 @@
                 <div class="row">
                     <div class="col-lg-5 col-md-6 col-sm-12 col-12">
                         <div class="footer-widget">
-                            <div class="logo">
-                                <a href="https://cadec.org/">
-                                    <img src="https://cadec.org/assets/images/logo/logo-full.png" alt="Logo CADEC">
+                            <div class="footer-logo">
+                                <a href="https://ceadec.org/">
+                                    <img src="{{asset('images/CEADEC.webp')}}" alt="Logo CEADEC" style="height: 50px; width: 50px;">
                                 </a>
                             </div>
                             <p class="description" style="color: #fff">
-                                Le CADEC est un centre d'appui au développement des compétences qui offre une gamme variée de formations, de services d'incubation d'entreprises et de soutien à l'innovation pour accompagner les organisations dans leur développement.
+                                Le CEADEC est un centre d'appui au développement des compétences qui offre une gamme variée de formations, de services d'incubation d'entreprises et de soutien à l'innovation pour accompagner les organisations dans leur développement.
                             </p>
                             <ul class="social-share">
                                 <li>
-                                    <a data-no-swup="" target="_blank" href="https://www.linkedin.com/company/cadec">
-                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    <a data-no-swup="" target="_blank" href="https://www.linkedin.com/company/CEADEC">
+                                        <i class="bi bi-linkedin"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a data-no-swup="" target="_blank" href="https://twitter.com/CADEC">
-                                        <i class="fa-brands fa-x-twitter"></i>
+                                    <a data-no-swup="" target="_blank" href="https://twitter.com/CEADEC">
+                                        <i class="bi bi-twitter-x"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a data-no-swup="" target="_blank" href="https://www.facebook.com/CADEC">
-                                        <i class="fa-brands fa-facebook-f"></i>
+                                    <a data-no-swup="" target="_blank" href="https://www.facebook.com/CEADEC">
+                                        <i class="bi bi-facebook"></i>
                                     </a>
                                 </li>
                             </ul>
@@ -40,29 +40,29 @@
                             <div class="inner">
                                 <ul class="footer-link link-hover">
                                     <li>
-                                        <a href="https://cadec.org/">
-                                            <i class="fa-regular fa-chevrons-right"></i>
+                                        <a href="https://CEADEC.org/">
+                                            <i class="bi bi-chevron-double-right"></i>
                                             Accueil
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a href="https://cadec.org/actualites">
-                                            <i class="fa-regular fa-chevrons-right"></i>
+                                        <a href="https://CEADEC.org/actualites">
+                                            <i class="bi bi-chevron-double-right"></i>
                                             Actualités
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a href="https://cadec.org/formations">
-                                            <i class="fa-regular fa-chevrons-right"></i>
+                                        <a href="https://CEADEC.org/formations">
+                                            <i class="bi bi-chevron-double-right"></i>
                                             Formations
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a href="https://cadec.org/contact">
-                                            <i class="fa-regular fa-chevrons-right"></i>
+                                        <a href="https://CEADEC.org/contact">
+                                            <i class="bi bi-chevron-double-right"></i>
                                             Contact
                                         </a>
                                     </li>
@@ -79,30 +79,30 @@
                                 <div class="widget-information">
                                     <ul class="information-list">
                                         <li>
-                                            <i class="fa-regular fa-location-dot"></i>
+                                            <i class="bi bi-pin-map"></i>
                                             Rue Socrates, Immeuble 104, AGB, 200m du Lycée 2 Février
                                         </li>
 
                                         <li>
-                                            <i class="fa-regular fa-mailbox"></i>
+                                            <i class="bi bi-mailbox"></i>
                                             08 BP 80925, Lomé-Togo
                                         </li>
 
                                         <li>
-                                            <i class="fa-solid fa-phone"></i>
+                                            <i class="bi bi-telephone-inbound"></i>
                                             <span class="mr-8">Téléphone :</span>
                                             <a href="tel:22890702222">(+228) 9070-2222</a>
                                         </li>
 
-                                        <li>
-                                            <i class="fa-regular fa-fax"></i>
-                                            <span class="mr-8">Fax :</span>
-                                            <span>(+228) 2225-3576</span>
-                                        </li>
+{{--                                        <li>--}}
+{{--                                            <i class="fa-regular fa-fax"></i>--}}
+{{--                                            <span class="mr-8">Fax :</span>--}}
+{{--                                            <span>(+228) 2225-3576</span>--}}
+{{--                                        </li>--}}
 
                                         <li>
-                                            <i class="fa-regular fa-envelope"></i>
-                                            <a href="mailto:info@cadec.org">info@cadec.org</a>
+                                            <i class="bi bi-envelope-at"></i>
+                                            <a href="mailto:info@CEADEC.org">info@CEADEC.org</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -117,8 +117,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="inner text-center text-uppercase fs-12">
-                        <p>© 2023 <a href="https://cadec.org/">Centre d’Appui au Développement des Compétences (CADEC)</a> Tous droits réservés</p>
+                    <div class="inner text-center text-uppercase fs-1">
+                        <p>© 2023 <a href="https://CEADEC.org/">Centre d’Appui au Développement des Compétences (CEADEC)</a> Tous droits réservés</p>
                         <p>Développé par <a href="https://emmanuelebeh.dev" target="_blank">Etonam Koutodzo</a></p>
                     </div>
                 </div>

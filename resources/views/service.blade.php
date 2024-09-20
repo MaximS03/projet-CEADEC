@@ -3,9 +3,9 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Nos services - CADEC</title>
+    <title>Nos services - CEADEC</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="shortcut icon" href="{{ asset('images/CADEC_icon.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('images/CEADEC_icon.ico') }}" type="image/x-icon">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -20,7 +20,7 @@
     <section class="services-intro">
         <div class="container">
             <h1>Nos Services</h1>
-            <p>Le CADEC offre une gamme de services visant à accompagner les jeunes et les professionnels dans leur développement personnel et professionnel. Nous proposons des formations, des conseils et des accompagnements sur mesure pour répondre aux besoins spécifiques de chaque individu et institution.</p>
+            <p>Le CEADEC offre une gamme de services visant à accompagner les jeunes et les professionnels dans leur développement personnel et professionnel. Nous proposons des formations, des conseils et des accompagnements sur mesure pour répondre aux besoins spécifiques de chaque individu et institution.</p>
         </div>
     </section>
     <section class="service">
@@ -40,7 +40,7 @@
             <p>Nous aidons les participants à établir un plan de carrière détaillé en fonction de leurs objectifs professionnels et de leur reconversion éventuelle.</p>
 
             <h3>Accompagnement pour l’insertion professionnelle</h3>
-            <p>Le CADEC offre un suivi pour la professionnalisation des jeunes, facilitant leur accès à des stages et des opportunités d'emploi.</p>
+            <p>Le CEADEC offre un suivi pour la professionnalisation des jeunes, facilitant leur accès à des stages et des opportunités d'emploi.</p>
 
             <h3>Appui-Accompagnement aux institutions</h3>
             <p>Nous offrons un accompagnement aux institutions locales pour améliorer leur contribution au développement de leurs communautés, notamment à travers des formations, du coaching, et du mentoring.</p>

@@ -3,9 +3,9 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Nos formations - CADEC</title>
+    <title>Nos formations - CEADEC</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="shortcut icon" href="{{ asset('images/CADEC_icon.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('images/CEADEC_icon.ico') }}" type="image/x-icon">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -20,7 +20,7 @@
     <div class="container mt-4">
         <h1 class="text-center mb-4">Formations professionnelles de courte durée</h1>
         <p>
-            Le CADEC propose des formations professionnelles de courte durée adaptées à divers secteurs d'activités.
+            Le CEADEC propose des formations professionnelles de courte durée adaptées à divers secteurs d'activités.
             Ces formations visent à renforcer les compétences techniques et comportementales des jeunes, des professionnels
             et des organisations, dans le but de faciliter leur insertion ou réinsertion professionnelle.
         </p>
@@ -56,7 +56,7 @@
         <h2 class="mt-5" id="modalite_inscription">Modalités d'inscription</h2>
         <p>
             Les formations sont ouvertes à tous les jeunes diplômés, entrepreneurs, employés et toute personne souhaitant
-            renforcer ses compétences professionnelles. Vous pouvez choisir entre des formations en présentiel au CADEC
+            renforcer ses compétences professionnelles. Vous pouvez choisir entre des formations en présentiel au CEADEC
             ou des formations en ligne accessibles partout dans le monde.
         </p>
 
