@@ -11,7 +11,7 @@
                                 </a>
                             </div>
                             <p class="description" style="color: #fff">
-                                Le CEADEC est un centre d'appui au développement des compétences qui offre une gamme variée de formations, de services d'incubation d'entreprises et de soutien à l'innovation pour accompagner les organisations dans leur développement.
+                                Le CEADEC est un centre qui offre une gamme variée de formations, de services d'incubation d'entreprises et de soutien à l'innovation pour accompagner les organisations dans leur développement.
                             </p>
                             <ul class="social-share">
                                 <li>
