@@ -25,8 +25,8 @@
             </div>
 
             <div class="">
-                <a href="{{url('#qui_sommes_nous')}}" class="btn btn-outline-primary btn-lg" style="margin-bottom: 10px">Qui sommes-nous ?</a>
-                <a href="{{url('#')}}" class="btn btn-outline-primary btn-lg">Que faisons-nous ?</a>
+                <a href="{{url('#qui_sommes_nous')}}" class="btn btn-lg boutton-vers-page" style="margin-bottom: 10px">Qui sommes-nous ?</a>
+                <a href="{{url('#')}}" class="btn btn-lg boutton-vers-page"  style="margin-bottom: 10px">Que faisons-nous ?</a>
             </div>
         </div>
     </div>
@@ -88,7 +88,7 @@
             </ul>
         </div>
 
-        <a href="{{ url('/contact') }}" class="btn btn-primary">Nous contacter</a>
+        <a href="{{ url('/contact') }}" class="btn btn-lg boutton-vers-page">Nous contacter</a>
     </section>
 
     <section id="">

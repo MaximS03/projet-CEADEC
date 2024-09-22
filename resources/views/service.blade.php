@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>Nos services - CEADEC</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="shortcut icon" href="{{ asset('images/CEADEC_icon.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('images/CEADEC.ico') }}" type="image/x-icon">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -53,7 +53,7 @@
             <div class="container text-center">
                 <h2>Besoin de plus d'informations ?</h2>
                 <p>Contactez-nous pour en savoir plus sur nos services ou pour discuter de vos besoins spécifiques.</p>
-                <a href="{{url('/contact')}}" class="btn btn-primary">Nous Contacter</a>
+                <a href="{{url('/contact')}}" class="btn btn-lg boutton-vers-page">Nous Contacter</a>
             </div>
         </section>
     </section>

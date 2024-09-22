@@ -33,7 +33,7 @@
                 </li>
             </ul>
         </div>
-        <img src="{{ asset('images/AIEPM.webp') }}" alt="International Association of Educators for World Peace" class="d-none d-lg-inline ml-3" height="40">
+        <img src="{{ asset('images/AIEPM.webp') }}" alt="International Association of Educators for World Peace" class="d-none d-lg-inline ml-3" height="60">
     </nav>
 
 </header>

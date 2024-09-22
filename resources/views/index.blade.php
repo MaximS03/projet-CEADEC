@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -19,11 +20,38 @@
 
 <body>
 @include('partials.header')
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Bienvenue - CEADEC</title>
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="shortcut icon" href="{{ asset('images/CEADEC.ico') }}" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+</head>
+
+
+<body>
+<div id="loader" style="position: fixed; width: 100%; height: 100vh; background: white; z-index: 9999; display: flex; justify-content: center; align-items: center;">
+    <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+        <span class="sr-only">Chargement...</span>
+    </div>
+</div>
 <main>
+    @include('partials.header')
+
     <div id="home" class="container-fluid">
         <div class="home_text">
-            <h1 style="font-size: 36px;">Bienvenue au CEADEC</h1>
+            <h1 style="font-size: 40px;">Bienvenue au CEADEC</h1>
             <p >Présentation du centre avec un appel à l'action.</p>
         </div>
     </div>
@@ -45,7 +73,7 @@
                 <li><p>Contribuer à l'insertion professionnelle et sociale des jeunes, comme à celle ...</p></li>
             </ul>
 
-            <a href="{{url('/presentation#presentation_learn_more')}}" class="btn btn-primary">Lire plus</a>
+            <a href="{{url('/presentation#presentation_learn_more')}}" class="btn btn-lg boutton-vers-page">Lire plus</a>
 {{--            <h3>Objectifs</h3>--}}
 {{--            <!-- Objectifs à court et long terme -->--}}
         </div>
@@ -71,19 +99,19 @@
     <section id="formations" class="container container-fluid d-flex flex-column justify-content-around">
         <h2>Formations</h2>
         <div class="row">
-            <div class="col text-center">
+            <div class="col">
                 <h3>Formations de courte durée</h3>
                 <p>Les formations de courte durée sont organisées en unités de
                     formation et peuvent être « délocalisées» c’est-à-dire réalisées sur le site du
                     demandeur et dans ce cas, leurs durées et leurs contenus sont définis en fonction
                     des besoins exprimés.</p>
             </div>
-            <div class="col text-center">
+            <div class="col">
                 <h3>Formations diplômantes</h3>
                 <p>Les formations diplômantes passent par le développement de la personnalité de
                     l’apprenant, la planification du développement de sa carrière.</p>
             </div>
-            <div class="col text-center">
+            <div class="col">
                 <h3>Séminaires</h3>
                 <p>Une série de séminaires destinés à approfondir des sujets spécifiques et à fournir
                     aux participants des compétences pratiques et directement applicables dans leur domaine professionnel vous est proposée.
@@ -92,8 +120,8 @@
             </div>
         </div>
         <div >
-            <a href="{{url('/formation')}}" class="btn btn-primary btn-lg">Lire plus</a>
-            <a href="{{url('/formation#modalite_inscription')}}" class="btn btn-outline-primary btn-lg">Modalités d'inscription</a>
+            <a href="{{url('/formation')}}" class="btn btn-lg boutton-vers-page">Lire plus</a>
+            <a href="{{url('/formation#modalite_inscription')}}" class="btn btn-lg boutton-vers-page">Modalités d'inscription</a>
         </div>
     </section>
 
@@ -104,13 +132,13 @@
             et leur croissance. Nos services sont adaptés aux besoins spécifiques de chaque client,
             garantissant des solutions personnalisées et efficaces.</h6>
         <div class="row">
-            <div class="col text-center">
+            <div class="col ">
                 <h3>Appui-Conseil &/Accompagnement</h3>
                 <p>Nous proposons des services d’appui-conseil aux entreprises et aux institutions souhaitant améliorer
                     leurs performances ou relever de nouveaux défis. Nous accompagnons
                     nos clients, en leur fournissant des conseils sur mesure et des solutions pratiques.</p>
             </div>
-            <div class="col text-center">
+            <div class="col ">
                 <h3>Incubation d'entreprises</h3>
                 Le CEADEC offre un programme d'incubation dédié aux jeunes entrepreneurs et startups. Ce programme
                 fournit un soutien complet allant de la phase d'idée à la réalisation du projet. {{-- Les services incluent--}}
@@ -118,7 +146,7 @@
 {{--                et des opportunités de financement.--}}
                 Notre objectif est de favoriser la création et la croissance de nouvelles entreprises innovantes dans la région.
             </div>
-            <div class="col text-center">
+            <div class="col ">
                 <h3>Recherche-Action & Innovation </h3>
                 Le CEADEC s'engage à promouvoir l'innovation à travers la recherche-action. Nous collaborons avec
                 des entreprises, des institutions académiques, et des organisations pour mener des projets de recherche appliquée
@@ -127,7 +155,7 @@
             </div>
         </div>
         <div >
-            <a href="#" class="btn btn-primary btn-lg">Lire plus</a>
+            <a href="#" class="btn btn-lg boutton-vers-page">Lire plus</a>
         </div>
         <div class="my-3 p-2 rounded pourquoi_nous_choisir"  style="background-color: rgba(62,135,204,0.68)">
             <h3 style="color: #00519d">Pourquoi choisir nos services ?</h3>
@@ -149,27 +177,28 @@
             les recherches et les meilleures pratiques dans divers domaines. Ces documents sont conçus pour
             informer, éduquer et inspirer les professionnels, les chercheurs, les étudiants, et le grand public.</p>
        <div class="row publication-home-row">
-           <div class="col text-center publication-home-col">
+           <div class="col publication-home-col">
                <h3>Articles</h3>
                Nos articles abordent une variété de sujets d'actualité, tels que l'innovation,
                le développement des compétences, et les tendances du marchéRédigés par des experts
                et des professionnels du secteur, ces articles
                offrent des analyses approfondies et des perspectives nouvelles sur les défis contemporains.
            </div>
-           <div class="col text-center publication-home-col">
+           <div class="col publication-home-col">
                <h3>Études de cas</h3>
                Nous publions régulièrement des études de cas basées sur des projets réels,
                illustrant comment les théories et les concepts sont appliqués dans des contextes pratiques.
                Ces études fournissent des exemples concrets de résolution de problèmes
                et de prise de décision dans différents secteurs d’activité.
            </div>
-           <div class="col text-center publication-home-col">
+           <div class="col publication-home-col">
                <h3>Rapports</h3>
                Nos rapports institutionnels comprennent des résultats de recherche, des analyses de marché,
                et des recommandations stratégiques. Ils sont destinés à guider les décideurs,
                les entrepreneurs et les organisations dans leurs démarches de développement et d'innovation.
            </div>
        </div>
+        <a href="{{url('/publication')}}" class="btn btn-lg boutton-vers-page">Voir toutes nos publications</a>
     </section>
 {{--    <section class="container container-fluid">--}}
 {{--        <h2>Actualités Récentes</h2>--}}
@@ -204,5 +233,13 @@
 </main>
 
 @include('partials.footer')
+
+
+<script>
+    window.onload = function() {
+        document.getElementById('loader').style.display = 'none';
+    };
+</script>
+
 </body>
 </html>

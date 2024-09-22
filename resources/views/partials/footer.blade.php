@@ -34,34 +34,55 @@
                     </div>
 
                     <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="explore-widget">
+                        <div class="explore-widget" style="margin-left: 65px">
                             <h5 class="widget-title">Explorer</h5>
 
                             <div class="inner">
-                                <ul class="footer-link link-hover">
+                                <ul class="footer-link link-hover" style="text-align: left; padding-left: 0">
                                     <li>
-                                        <a href="https://CEADEC.org/">
+                                        <a href="{{url('/')}}">
                                             <i class="bi bi-chevron-double-right"></i>
                                             Accueil
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a href="https://CEADEC.org/actualites">
+                                        <a href="{{url('/presentation')}}">
                                             <i class="bi bi-chevron-double-right"></i>
-                                            Actualités
+                                            Présentation
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a href="https://CEADEC.org/formations">
+                                        <a href="{{url('/publication')}}">
+                                            <i class="bi bi-chevron-double-right"></i>
+                                            Publications
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{url('/service')}}">
+                                            <i class="bi bi-chevron-double-right"></i>
+                                            Services Offerts
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{url('/formation')}}">
                                             <i class="bi bi-chevron-double-right"></i>
                                             Formations
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a href="https://CEADEC.org/contact">
+                                        <a href="{{url('/realisation')}}">
+                                            <i class="bi bi-chevron-double-right"></i>
+                                            Réalisations
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{url('/contact')}}">
                                             <i class="bi bi-chevron-double-right"></i>
                                             Contact
                                         </a>
@@ -91,7 +112,7 @@
                                         <li>
                                             <i class="bi bi-telephone-inbound"></i>
                                             <span class="mr-8">Téléphone :</span>
-                                            <a href="tel:22890702222">(+228) 9070-2222</a>
+                                            <a href="tel:22870323754">(+228) 70-32-37-54</a>
                                         </li>
 
 {{--                                        <li>--}}
@@ -118,8 +139,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner text-center text-uppercase fs-1">
-                        <p>© 2023 <a href="https://CEADEC.org/">Centre d’Appui au Développement des Compétences (CEADEC)</a> Tous droits réservés</p>
-                        <p>Développé par <a href="https://emmanuelebeh.dev" target="_blank">Etonam Koutodzo</a></p>
+                        <p>© 2024 <a href="https://CEADEC.org/">Centre d’Appui au Développement des Compétences</a> Tous droits réservés</p>
+                        <p>Développé par <a href="https://etonamktd.dev" target="_blank">Etonam Koutodzo</a></p>
                     </div>
                 </div>
             </div>

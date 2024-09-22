@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>Publications - CEADEC</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="shortcut icon" href="{{ asset('images/CEADEC_icon.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('images/CEADEC.ico') }}" type="image/x-icon">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -54,7 +54,7 @@
                         <p class="card-text">Cet article porte sur l'importance du développement des compétences pour les jeunes...</p>
                         <p><strong>Auteur :</strong> John Doe</p>
                         <p><strong>Date :</strong> 12 septembre 2024</p>
-                        <a href="{{ asset('publications/article1.pdf') }}" target="_blank" class="btn btn-primary">Lire l'article</a>
+                        <a href="{{ asset('publications/article1.pdf') }}" target="_blank" class="btn btn-lg boutton-vers-page">Lire l'article</a>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                         <p class="card-text">Cette étude de cas analyse l'impact de la formation professionnelle sur l'emploi des jeunes...</p>
                         <p><strong>Auteur :</strong> Jane Doe</p>
                         <p><strong>Date :</strong> 20 août 2024</p>
-                        <a href="{{ asset('publications/etude1.pdf') }}" target="_blank" class="btn btn-primary">Lire l'étude</a>
+                        <a href="{{ asset('publications/etude1.pdf') }}" target="_blank" class="btn btn-lg boutton-vers-page">Lire l'étude</a>
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@
                         <p class="card-text">Ce rapport présente les résultats des programmes de formation menés par le CEADEC en 2024...</p>
                         <p><strong>Auteur :</strong> CEADEC</p>
                         <p><strong>Date :</strong> 5 juillet 2024</p>
-                        <a href="{{ asset('publications/rapport1.pdf') }}" target="_blank" class="btn btn-primary">Lire le rapport</a>
+                        <a href="{{ asset('publications/rapport1.pdf') }}" target="_blank" class="btn btn-lg boutton-vers-page">Lire le rapport</a>
                     </div>
                 </div>
             </div>
