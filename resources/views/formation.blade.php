@@ -118,6 +118,6 @@
         header.classList.toggle("sticky", window.scrollY > 50)
     });
 </script>
-</script>
+
 </body>
 </html>

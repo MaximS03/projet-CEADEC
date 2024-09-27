@@ -98,7 +98,6 @@
                 </ul>
             </div>
         </div>
-        </div>
 
         {{--        <div>--}}
         {{--            <h3>Historique</h3>--}}
