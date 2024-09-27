@@ -10,8 +10,8 @@
                                     <img src="{{asset('images/CEADEC.webp')}}" alt="Logo CEADEC" style="height: 50px; width: 50px;">
                                 </a>
                             </div>
-                            <p class="description" style="color: #fff">
-                                Le CEADEC est un centre qui offre une gamme variée de formations, de services d'incubation d'entreprises et de soutien à l'innovation pour accompagner les organisations dans leur développement.
+                            <p class="description" style="color: #fff; text-align: start">
+                                Un centre de formation au service du développement de la personnalité, la planification de carrière et de l’accompagnement à la mise en œuvre de plan de carrière.
                             </p>
                             <ul class="social-share">
                                 <li>
@@ -34,7 +34,7 @@
                     </div>
 
                     <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="explore-widget" style="margin-left: 65px">
+                        <div class="explore-widget" style="margin-left: 65px; display: flex; flex-direction: column; align-items: flex-start;">
                             <h5 class="widget-title">Explorer</h5>
 
                             <div class="inner">
@@ -46,19 +46,13 @@
                                         </a>
                                     </li>
 
-                                    <li>
-                                        <a href="{{url('/presentation')}}">
-                                            <i class="bi bi-chevron-double-right"></i>
-                                            Présentation
-                                        </a>
-                                    </li>
+{{--                                    <li>--}}
+{{--                                        <a href="{{url('/presentation')}}">--}}
+{{--                                            <i class="bi bi-chevron-double-right"></i>--}}
+{{--                                            Présentation--}}
+{{--                                        </a>--}}
+{{--                                    </li>--}}
 
-                                    <li>
-                                        <a href="{{url('/publication')}}">
-                                            <i class="bi bi-chevron-double-right"></i>
-                                            Publications
-                                        </a>
-                                    </li>
 
                                     <li>
                                         <a href="{{url('/service')}}">
@@ -82,6 +76,13 @@
                                     </li>
 
                                     <li>
+                                        <a href="{{url('/publication')}}">
+                                            <i class="bi bi-chevron-double-right"></i>
+                                            Recherche - Action
+                                        </a>
+                                    </li>
+
+                                    <li>
                                         <a href="{{url('/contact')}}">
                                             <i class="bi bi-chevron-double-right"></i>
                                             Contact
@@ -101,18 +102,13 @@
                                     <ul class="information-list">
                                         <li>
                                             <i class="bi bi-pin-map"></i>
-                                            Rue Socrates, Immeuble 104, AGB, 200m du Lycée 2 Février
-                                        </li>
-
-                                        <li>
-                                            <i class="bi bi-mailbox"></i>
-                                            08 BP 80925, Lomé-Togo
+                                            650, 2ème Rue Après le Siège de EBOMAF, quartier Apédokoè, Commune de Sanguéra
                                         </li>
 
                                         <li>
                                             <i class="bi bi-telephone-inbound"></i>
                                             <span class="mr-8">Téléphone :</span>
-                                            <a href="tel:22870323754">(+228) 70-32-37-54</a>
+                                            <a href="tel:22890036914">(+228) 9003-6914</a>
                                         </li>
 
 {{--                                        <li>--}}
@@ -123,7 +119,7 @@
 
                                         <li>
                                             <i class="bi bi-envelope-at"></i>
-                                            <a href="mailto:info@CEADEC.org">info@CEADEC.org</a>
+                                            <a href="mailto:cadec@siegecadectogo.org">cadec@siegecadectogo.org</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -138,7 +134,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="inner text-center text-uppercase fs-1">
+                    <div class="inner text-center text-uppercase fs-6">
                         <p>© 2024 <a href="https://CEADEC.org/">Centre d’Appui au Développement des Compétences</a> Tous droits réservés</p>
                         <p>Développé par <a href="https://etonamktd.dev" target="_blank">Etonam Koutodzo</a></p>
                     </div>

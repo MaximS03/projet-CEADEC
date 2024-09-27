@@ -3,25 +3,32 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Contactez Nous - CEADEC</title>
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <title>Bienvenue - CEADEC</title>
     <link rel="shortcut icon" href="{{ asset('images/CEADEC.ico') }}" type="image/x-icon">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+          rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/media.css') }}">
 
 </head>
 
 <body>
 @include('partials.header')
 
-<main>
+<div id="loader" style="position: fixed; width: 100%; height: 100vh; background: white; z-index: 9999; display: flex; justify-content: center; align-items: center;">
+    <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+        <span class="sr-only">Chargement...</span>
+    </div>
+</div>
 
+<main>
+    <div class="home-contact">    </div>
     <section id="contacts" class="container container-fluid d-flex flex-column justify-content-around h-auto ">
-        <div class="home-contact">
-            <h2>Contacts</h2>
-        </div>
+        <h2>Contacts</h2>
         <section class="contact-coordonee">
             <h3>Coordonnées</h3>
             <div class="d-flex h-100 w-100" style="padding: 1rem; justify-content: space-evenly">
@@ -29,25 +36,24 @@
                     <div class="first-content">
                         <span>Adresse</span>
                     </div>
-                    <div class="second-content">
-                        <span>Avedzi, Lomé</span>
+                    <div class="second-content text-center">
+                        <span>650, 2ème Rue Après le Siège de EBOMAF, quartier Apédokoè, Commune de Sanguéra</span>
                     </div>
                 </div>
                 <div class="card contact-card">
                     <div class="first-content">
-                        <span>téléphone</span>
+                        <span>Téléphone</span>
                     </div>
                     <div class="second-content">
-                        <span style="font-size: 20px">(+228) 00000000 /</span>
-                        <span style="font-size: 20px">00005000</span>
+                        <span><a href="tel:22890036914" style="color: #000">(+228) 9003-6914</a></span>
                     </div>
                 </div>
                 <div class="card contact-card">
                     <div class="first-content">
-                        <span>email</span>
+                        <span>E-m@il</span>
                     </div>
                     <div class="second-content">
-                        <span>mamx1404@gmail.com</span>
+                        <span><a href="mailto:cadec@siegecadectogo.org" style="color: #000">cadec@ceadec.org</a></span>
                     </div>
                 </div>
             </div>
@@ -60,7 +66,7 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="google-map alignwide">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d13531.372054011026!2d1.16410615!3d6.20448445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTInMjYuOSJOIDHCsDA5JzU2LjYiRQ!5e1!3m2!1sfr!2stg!4v1726834587038!5m2!1sfr!2stg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d662.5816697218634!2d1.1360759889489507!3d6.215804223739115!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfr!2stg!4v1727269548796!5m2!1sfr!2stg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -92,6 +98,16 @@
 
 @include('partials.footer')
 
-{{--<script src="{{asset('js/script.js')}}"></script>--}}
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="{{asset('js/script.js')}}"></script>
+
+<script type="text/javascript">
+    window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 50)
+    });
+</script>
 </body>
 </html>

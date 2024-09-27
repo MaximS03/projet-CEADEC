@@ -1,3 +1,90 @@
-@media  {
+@media screen and (max-width: 425px) {
+    .table {
+        display: block;
+        width: 100%;
+    }
 
+    .table thead {
+        display: none;
+    }
+
+    .table tbody tr {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        padding: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .table tbody tr td {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+        box-sizing: border-box;
+        position: relative;
+        border: none;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .table tbody tr td:before {
+        content: attr(data-label);
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        font-size: 12px;
+        color: #333;
+    }
+
+    .table tbody tr td:last-child {
+        border-bottom: none;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .home_text h1 {
+        font-size: 20px; !important;
+    }
+    #home, #presentation-home {
+        height: 100dvh;
+    }
+    .presentation-home-element {
+        height: 100%;
+        width: 100%;
+    }
+    #presentation_learn_more {
+        flex-direction: column;
+    }
+    .publication-home-row {
+        flex-direction: column;
+    }
+    .publication-home-col {
+        padding: 5px;
+    }
+    .pourquoi_nous_choisir, .pourquoi_nous_choisir_text_part {
+        width: 100% !important;
+    }
+    #presentation, #activities, #formations, #services, #publications {
+        height: auto;
+    }
+
+    .explore-widget {
+        margin: 0px !important;
+    }
+
+
+    h1{
+        /*font-size: ;*/
+    }
+    h2{
+        /*font-size: ;*/
+    }
+    h3{
+        font-size: 1.4rem !important;
+    }
 }

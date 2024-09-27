@@ -31,12 +31,30 @@ body {
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.62);
     padding: 0;
     position: fixed;
     top: 0;
     z-index: 1000;
+    transition: 0.5s;
+    background: transparent;
 }
+
+.navbar .navbar-brand {
+    font-family: "Crimson Text", serif;
+    font-size: 32px;
+    color: #000 !important;
+    font-weight: 700;
+}
+
+header.sticky {
+    padding: 0;
+    background: black;
+}
+
+header.sticky  nav ul li a, header.sticky  .navbar-brand {
+    color: white !important;
+}
+
 
 header h1{
     /*color: #590808;*/
@@ -59,10 +77,9 @@ nav ul li {
 }
 
 nav ul li a {
-    /*color: #ffffff;*/
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
+    color: #000 !important;
+    font-size: 18px;
+    font-weight: 900;
     border-radius: 10px;
     font-family: 'Cormorant SC SemiBold', sans-serif;
 }
@@ -72,9 +89,9 @@ nav ul li a:link {
 }
 
 .nav-item.active .nav-link {
-    background-color: #0056A6; /* couleur de fond */
-    color: white; /* couleur du texte */
-    font-weight: bold; /* mettre le texte en gras */
+    background-color: #08678c;
+    color: #000;
+    font-weight: bold;
 }
 
 /*      ----------------         */
@@ -96,7 +113,7 @@ nav ul li a:link {
 
 h1 {
     font-family: 'Cormorant SC Medium', serif;
-    color: #0056A6;
+    color: #074973;
     margin: 20px 0;
 }
 
@@ -136,22 +153,16 @@ p {
 /*    border-radius: 5px;*/
 /*}*/
 
-section {
-    background-color: #FFFFFF;
-}
 
-
-#home, #presentation, #activities, #a-propos, #formations, #services {
-    height: 100dvh;
-}
+/*#home, #presentation, #activities, #a-propos, #formations, #services {*/
+/*}*/
 
 /*#temoignages {*/
 /*    height: 75dvh;*/
 /*}*/
 
 #home {
-    background: linear-gradient(rgba(0, 36, 72, 0.7), rgba(0, 36, 72, 0.7)),
-    url('../images/home_background.webp');
+    background: url('../images/home_background.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -176,7 +187,7 @@ section {
     content: '';
     width: 20px;
     height: 20px;
-    background-color: #0056A6;
+    background-color: #074973;
     position: absolute;
     top: -10px;
     left: -10px;
@@ -188,7 +199,7 @@ section {
     content: '';
     width: 20px;
     height: 20px;
-    background-color: #0056A6;
+    background-color: #074973;
     position: absolute;
     bottom: -10px;
     right: -10px;
@@ -239,7 +250,7 @@ section {
     display: inline-block;
     font-size: 18px;
     font-weight: 700;
-    padding: 0 30px;
+    padding: 10px 30px;
     transition: .4s;
 }
 
@@ -294,6 +305,14 @@ section {
 
 /* ----- page realisation ----- */
 
+.realisation-home {
+    height: 50dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .realisation-card {
     width: 100%;
     height: 100%;
@@ -331,10 +350,11 @@ section {
 
 /* ----- end of page realisation ----- */
 
+
 /* ----- Presentation ----- */
 
 #presentation-home {
-    background: linear-gradient(rgba(27, 28, 31, 0.5), rgba(27, 28, 31, 0.5)),
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
     url('../images/about-background.webp');
     background-size: cover;
     background-position: center;
@@ -361,8 +381,6 @@ section {
 
 
 
-
-
 /* ----- End of Presentation ----- */
 
 /* ----- Publication ----- */
@@ -385,9 +403,9 @@ section {
     height: 50dvh;
 }
 
-.publication-home-row {
-    padding: 0 10px;
-}
+/*.publication-home-row {*/
+/*    padding: 0 10px;*/
+/*}*/
 
 
 
@@ -398,12 +416,65 @@ section {
 .pourquoi_nous_choisir, .pourquoi_nous_choisir_text_part {
     width: 50%;
 }
+.services-home {
+    background: linear-gradient(rgba(27, 28, 31, 0.5), rgba(27, 28, 31, 0.5)),
+    url('../images/service-home.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 50dvh;
+}
+
+.goal-card .inner .content .title {
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+
+.goal-card .inner .content .title a {
+    text-decoration: none;
+    color: #000
+}
+
+.goal-card .inner .content .description {
+    margin-bottom: 20px;
+}
 
 
 
 
 
 /* ----- End of Service ----- */
+
+
+/* ----- Formation ----- */
+
+.formation-home {
+    background: linear-gradient(rgba(27, 28, 31, 0.5), rgba(27, 28, 31, 0.5)),
+    url('../images/formation-home.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 50dvh;
+}
+
+.formation-home p {
+    padding: 10px 50px;
+}
+
+
+/* ----- end of Formation ----- */
+
+
 
 
 /* ----- Contact ----- */
@@ -413,11 +484,16 @@ section {
 }
 
 .home-contact {
-    margin: 5rem 0 0 0;
-    height: 25dvh;
+    background: linear-gradient(rgba(27, 28, 31, 0.5), rgba(27, 28, 31, 0.5)),
+    url('../images/contact.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
+    height: 50dvh;
 }
 
 .google-map.alignwide iframe{
@@ -436,10 +512,9 @@ section {
 .contact-card {
     width: 300px;
     height: 100px;
-    background: rgb(249, 253, 212) !important;
+    background: #bccad2 !important;
     transition: all 0.4s;
     border-radius: 15px !important;
-    box-shadow: 0 0 15px 3px rgba(45, 45, 45, 0.7);
     font-size: 20px;
     font-weight: 700;
 }
@@ -448,8 +523,7 @@ section {
     border-radius: 15px;
     cursor: pointer;
     transform: scale(1.02);
-    box-shadow: 0 0 15px 3px  rgba(45, 45, 45, 0.7);
-    background: rgb(249, 253, 212) !important;
+    background: #bccad2 !important;
 }
 
 .first-content {
@@ -484,7 +558,7 @@ section {
 .contact-card:hover .second-content {
     opacity: 1;
     height: 100%;
-    font-size: 25px;
+    font-size: 18px;
     transform: rotate(0deg);
 }
 
@@ -533,14 +607,6 @@ section {
 
 /* ----- footer ----- */
 
-
-.navbar .navbar-brand {
-    font-family: "Crimson Text", serif;
-    font-size: 32px;
-    color: #0056A6 !important;
-    font-weight: 700;
-}
-
 .footer-container {
     background: #003D4A;
     color: #fff;
@@ -550,6 +616,12 @@ section {
     padding: 50px 0 60px;
 }
 
+.footer-widget {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .footer-widget .footer-logo {
     margin-bottom: 10px;
 }
@@ -557,6 +629,7 @@ section {
 .footer-widget .social-share {
     display: flex;
     list-style: none;
+    padding: 0;
 }
 
 .explore-widget .inner ul {
@@ -565,6 +638,8 @@ section {
 
 .information-list {
     list-style: none;
+    text-align: start;
+    padding: 0;
 }
 
 footer {
@@ -574,14 +649,13 @@ footer {
 }
 
 footer a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     margin: 0 10px;
-    font-size: 18px;
 }
 
 footer p {
-    color: #000;
+    color: #fff;
 }
 
 footer .social-share a {
@@ -590,7 +664,6 @@ footer .social-share a {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
     line-height: 55px;
     transition: 0.4s;
     width: 40px;
@@ -608,7 +681,6 @@ footer .social-share a:hover i {
 }
 
 .copyright-area p {
-    font-size: 18px;
     font-family: "Arsenal", serif;
     margin-bottom: 0;
 }
@@ -621,44 +693,6 @@ footer .social-share a:hover i {
 /* ----- end footer ----- */
 
 
-@media only screen and (max-width: 768px) {
-    .home_text h1 {
-        font-size: 20px; !important;
-    }
-    #home, #presentation-home {
-        height: 100dvh;
-    }
-    .presentation-home-element {
-        height: 100%;
-        width: 100%;
-    }
-    #presentation_learn_more {
-        flex-direction: column;
-    }
-    .publication-home-row {
-        flex-direction: column;
-    }
-    .publication-home-col {
-        padding: 5px;
-    }
-    .pourquoi_nous_choisir, .pourquoi_nous_choisir_text_part {
-        width: 100%;
-    }
-    #presentation, #activities, #formations, #services, #publications {
-       height: auto;
-    }
-
-
-    h1{
-        /*font-size: ;*/
-    }
-    h2{
-        /*font-size: ;*/
-    }
-    h3{
-        font-size: 1.4rem !important;
-    }
-}
 
 /*----- Styles pour le loader -----*/
 
