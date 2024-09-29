@@ -1,9 +1,10 @@
-
 //----- Loading -----
 
-window.onload = function() {
+window.onload = function () {
     document.getElementById('loader').style.display = 'none';
 };
+
+
 
 
 // function toggleNavbar(button) {

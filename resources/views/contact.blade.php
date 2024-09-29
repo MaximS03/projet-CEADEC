@@ -21,58 +21,62 @@
 
 <div id="loader" style="position: fixed; width: 100%; height: 100vh; background: white; z-index: 9999; display: flex; justify-content: center; align-items: center;">
     <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
-        <span class="sr-only">Chargement...</span>
+        <span class="sr-only"></span>
     </div>
 </div>
 
 <main>
     <div class="home-contact">    </div>
-    <section id="contacts" class="container container-fluid d-flex flex-column justify-content-around h-auto ">
+    <div id="contacts" class="container container-fluid d-flex flex-column justify-content-around h-auto ">
         <h2>Contacts</h2>
-        <section class="contact-coordonee">
+        <div class="contact-coordonee">
             <h3>Coordonnées</h3>
-            <div class="d-flex h-100 w-100" style="padding: 1rem; justify-content: space-evenly">
-                <div class="card contact-card">
+            <div class="d-flex flex-wrap flex-lg-row flex-column align-items-stretch w-100 cards" style="padding: 1rem; justify-content: space-evenly">
+                <div class="card contact-card mb-3">
                     <div class="first-content">
                         <span>Adresse</span>
                     </div>
                     <div class="second-content text-center">
-                        <span>650, 2ème Rue Après le Siège de EBOMAF, quartier Apédokoè, Commune de Sanguéra</span>
+                        <span><a href="{{url('https://maps.app.goo.gl/ZLELsduBseKzgRPa6')}}" style="color: #000">650, 2ème Rue Après le Siège de EBOMAF, quartier Apédokoè, Commune de Sanguéra</a></span>
                     </div>
                 </div>
-                <div class="card contact-card">
+                <div class="card contact-card mb-3">
                     <div class="first-content">
                         <span>Téléphone</span>
                     </div>
                     <div class="second-content">
-                        <span><a href="tel:22890036914" style="color: #000">(+228) 9003-6914</a></span>
+                        <span><a href="{{url('tel:22890036914')}}" style="color: #000">(+228) 9003-6914</a></span>
                     </div>
                 </div>
-                <div class="card contact-card">
+                <div class="card contact-card mb-3">
                     <div class="first-content">
                         <span>E-m@il</span>
                     </div>
                     <div class="second-content">
-                        <span><a href="mailto:cadec@siegecadectogo.org" style="color: #000">cadec@ceadec.org</a></span>
+                        <span><a href="{{url('mailto:cadec@siegecadectogo.org')}}" style="color: #000">cadec@ceadec.org</a></span>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="d-flex" style="justify-content: space-evenly">
+        </div>
+
+        <div class="d-flex localisation-formulaire" style="justify-content: space-evenly">
             <div class="localisation">
                 <h3>Localisation</h3>
                 <div class="contact-map-area section-gap">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-12">
                                 <div class="google-map alignwide">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d662.5816697218634!2d1.1360759889489507!3d6.215804223739115!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfr!2stg!4v1727269548796!5m2!1sfr!2stg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <div class="map-responsive">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d845.6923300383498!2d1.136065014389349!3d6.215954995870157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTInNTcuMyJOIDHCsDA4JzEwLjAiRQ!5e1!3m2!1sfr!2stg!4v1727538568154!5m2!1sfr!2stg" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
 
 
             <div class="formulaire-contact">
@@ -91,8 +95,8 @@
                     <button type="submit">Envoyer</button>
                 </form>
             </div>
-        </section>
-    </section>
+        </div>
+    </div>
 
 </main>
 
@@ -101,6 +105,10 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 <script src="{{asset('js/script.js')}}"></script>
 
 <script type="text/javascript">

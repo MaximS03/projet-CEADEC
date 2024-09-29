@@ -41,6 +41,14 @@
     .table tbody tr td:last-child {
         border-bottom: none;
     }
+    .localisation {
+        width: 90% !important;
+    }
+    .cards {
+        flex-direction: column ;
+        /*height: 100dvh;*/
+    }
+
 }
 
 
@@ -86,5 +94,50 @@
     }
     h3{
         font-size: 1.4rem !important;
+    }
+
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        position: absolute;
+        top: 70px;
+        right: 10px;
+        background-color: #0056A6;
+        padding: 15px;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .menu-hamburger {
+        display: block;
+    }
+
+    .association-logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .nav-bar {
+        display: flex !important;
+        flex-direction: column !important;
+        background: rgba(74, 85, 104, 0.5) !important;
+        backdrop-filter: blur(8px) !important;
+        max-width: 310px !important;
+        position: relative;
+    }
+
+    .localisation-formulaire {
+        flex-direction: column;
+    }
+}
+
+
+@media (min-width: 769px) {
+    .association-logo {
+        display: inline;
     }
 }

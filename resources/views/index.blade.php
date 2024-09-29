@@ -4,31 +4,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>Bienvenue - CEADEC</title>
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="shortcut icon" href="{{ asset('images/CEADEC.ico') }}" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
-        rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/media.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-<div id="loader"
-     style="position: fixed; width: 100%; height: 100vh; background: white; z-index: 9999; display: flex; justify-content: center; align-items: center;">
+@include('partials.header')
+
+<div id="loader" style="position: fixed; width: 100%; height: 100vh; background: white; z-index: 9999; display: flex; justify-content: center; align-items: center;">
     <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
-        <span class="sr-only">Chargement...</span>
+        <span class="sr-only"></span>
     </div>
 </div>
 <main>
-    @include('partials.header')
-
     <div id="home" class="container-fluid">
         <div class="home_text">
             <h1 style="font-size: 40px;">Bienvenue au CEADEC</h1>
-            <p>Présentation du centre avec un appel à l'action.</p>
+            <p >Présentation du centre avec un appel à l'action.</p>
         </div>
     </div>
 
@@ -99,12 +98,8 @@
             </div>
         </div>
 
-        {{--        <div>--}}
-        {{--            <h3>Historique</h3>--}}
-        {{--            <!-- Chronologie des événements marquants -->--}}
-        {{--        </div>--}}
-
     </section>
+
 
     {{--    <section id="actualites" class="container container-fluid">--}}
     {{--        <h2>Actualités et Événements</h2>--}}
@@ -117,6 +112,7 @@
     {{--            <!-- Calendrier et détails des événements -->--}}
     {{--        </section>--}}
     {{--    </section>--}}
+
 
 
     <section id="services" class="container container-fluid d-flex flex-column justify-content-around mb-4 mt-4">
@@ -238,6 +234,7 @@
         </div>
         <a href="{{url('/publication')}}" class="btn boutton-vers-page">Voir toutes nos publications</a>
     </section>
+
     {{--    <section class="container container-fluid">--}}
     {{--        <h2>Actualités Récentes</h2>--}}
 
@@ -276,13 +273,24 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
 <script src="{{asset('js/script.js')}}"></script>
 
-<script type="text/javascript">
+<script>
+    window.onload = function() {
+        document.getElementById('loader').style.display = 'none';
+    };
+
     window.addEventListener("scroll", function () {
         var header = document.querySelector("header");
         header.classList.toggle("sticky", window.scrollY > 50)
     });
 </script>
+
+
 </body>
 </html>

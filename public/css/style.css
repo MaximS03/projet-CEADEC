@@ -31,7 +31,7 @@ body {
 }
 
 header {
-    padding: 0;
+    padding: 10px 0;
     position: fixed;
     top: 0;
     z-index: 1000;
@@ -46,12 +46,19 @@ header {
     font-weight: 700;
 }
 
+
+
+
 header.sticky {
     padding: 0;
     background: black;
 }
 
 header.sticky  nav ul li a, header.sticky  .navbar-brand {
+    color: white !important;
+}
+
+header.sticky .menu-icon {
     color: white !important;
 }
 
@@ -78,10 +85,13 @@ nav ul li {
 
 nav ul li a {
     color: #000 !important;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 900;
     border-radius: 10px;
+    margin-bottom: 5px;
     font-family: 'Cormorant SC SemiBold', sans-serif;
+    background: rgba(252, 255, 222, 0.27) !important;
+    border: 1px solid rgba(252, 255, 255) !important;
 }
 
 nav ul li a:link {
@@ -162,7 +172,7 @@ p {
 /*}*/
 
 #home {
-    background: url('../images/home_background.webp');
+    background: linear-gradient(rgba(27, 28, 31, 0.5), rgba(27, 28, 31, 0.5)), url('../images/home_background.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -354,8 +364,7 @@ p {
 /* ----- Presentation ----- */
 
 #presentation-home {
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
-    url('../images/about-background.webp');
+    background: url('../images/about-background.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -391,7 +400,7 @@ p {
 }
 
 #publication-home {
-    background-image: url('../images/news_pic.webp');
+    background-image: linear-gradient(rgba(27, 28, 31, 0.5), rgba(27, 28, 31, 0.5)), url('../images/news_pic.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -417,8 +426,7 @@ p {
     width: 50%;
 }
 .services-home {
-    background: linear-gradient(rgba(27, 28, 31, 0.5), rgba(27, 28, 31, 0.5)),
-    url('../images/service-home.webp');
+    background: linear-gradient(rgba(27, 28, 31, 0.5), rgba(27, 28, 31, 0.5)), url('../images/service-home.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -454,8 +462,7 @@ p {
 /* ----- Formation ----- */
 
 .formation-home {
-    background: linear-gradient(rgba(27, 28, 31, 0.5), rgba(27, 28, 31, 0.5)),
-    url('../images/formation-home.webp');
+    background: linear-gradient(rgba(27, 28, 31, 0.5), rgba(27, 28, 31, 0.5)), url('../images/formation-home.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -507,8 +514,8 @@ p {
 .contact-coordonee {
     width: 100%;
     padding: 2rem 0;
-
 }
+
 .contact-card {
     width: 300px;
     height: 100px;
