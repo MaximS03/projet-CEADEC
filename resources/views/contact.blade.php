@@ -28,7 +28,7 @@
 <main>
     <div class="home-contact">    </div>
     <div id="contacts" class="container container-fluid d-flex flex-column justify-content-around h-auto ">
-        <h2>Contacts</h2>
+        <h1 class="text-center mb-4">Contacts</h1>
         <div class="contact-coordonee">
             <h3>Coordonnées</h3>
             <div class="d-flex flex-wrap flex-lg-row flex-column align-items-stretch w-100 cards" style="padding: 1rem; justify-content: space-evenly">
@@ -53,7 +53,7 @@
                         <span>E-m@il</span>
                     </div>
                     <div class="second-content">
-                        <span><a href="{{url('mailto:cadec@siegecadectogo.org')}}" style="color: #000">cadec@ceadec.org</a></span>
+                        <span><a href="{{url('mailto:ceadec@siegeceadectogo.org')}}" style="color: #000">ceadec@ceadec.org</a></span>
                     </div>
                 </div>
             </div>
@@ -105,9 +105,6 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <script src="{{asset('js/script.js')}}"></script>
 

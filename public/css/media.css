@@ -48,7 +48,9 @@
         flex-direction: column ;
         /*height: 100dvh;*/
     }
-
+    .contact-card {
+        width: 100%;
+    }
 }
 
 
@@ -109,10 +111,6 @@
 
     .navbar-links.active {
         display: flex;
-    }
-
-    .menu-hamburger {
-        display: block;
     }
 
     .association-logo {

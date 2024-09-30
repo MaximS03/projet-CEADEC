@@ -26,12 +26,13 @@
 </div>
 
 <main>
-    <div class="container mt-4">
+    <div class="home-realisation">    </div>
+    <div class="container mt-1">
         <div class="realisation-home ">
             <h1 class="text-center mb-4">Quelques réalisations du promoteur du centre</h1>
             <p>
-                Découvrez quelques réalisations du promoteur du centre avec différentes organisations et institutions
-                pour le développement de compétences, la gouvernance locale et l'insertion socio-professionnelle.
+                Découvrez quelques réalisations du promoteur du centre avec certaines organisations et institutions
+                dans le cadre du développement personnel, la planification de carrière, l'insertion socio-professionnelle et la gouvernance locale.
             </p>
         </div>
 
@@ -92,6 +93,25 @@
 
             <div class="col-md-4 mb-4">
                 <div class="realisation-card">
+                    <img src="{{ asset('images/7.webp') }}" alt="">
+                    <div style="color: #000">Animation d'un séminaire atelier de formation des formateurs en développement personnel à l’endroit des
+                        jeunes des Préfectures de : Assoli, Tchaoudjo, Tchamba, Sotouboua et Blitta,  du  22 au 26 janvier 2018
+                        à l’Hôtel Aléhéri, Sokodé.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="realisation-card">
+                    <img src="{{ asset('images/8.webp') }}" alt="">
+                   <div style="color: #000">Animation d'un séminaire atelier de formation des élus des 15 communes de la Région du Togo dans le cadre de <br> l' « Appui à la décentralisation et au renforcement de la Gouvernance locale dans les Communes de la
+                       Région Centrale et des Départements du Borgou et de l’Alibori», Sokodé Juin 2022.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="realisation-card">
                     <a href="https://territoire.gouv.tg/vers-une-maitrise-de-la-gouvernance-locale-les-elus-locaux-et-personnels-administratifs-des-communes-tchamba-2-et-blitta-3-outilles-a-lamelioration-des-services-publics"
                        target="_blank">
                         <img src="{{ asset('images/1.webp') }}" alt="Gouvernance locale">
@@ -127,9 +147,6 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <script src="{{asset('js/script.js')}}"></script>
 

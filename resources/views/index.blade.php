@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
@@ -26,8 +26,8 @@
 <main>
     <div id="home" class="container-fluid">
         <div class="home_text">
-            <h1 style="font-size: 40px;">Bienvenue au CEADEC</h1>
-            <p >Présentation du centre avec un appel à l'action.</p>
+            <h1 style="font-size: 35px;">Bienvenue au CEADEC</h1>
+            <p>Présentation du centre avec un appel à l'action.</p>
         </div>
     </div>
 
@@ -184,15 +184,15 @@
 
     </section>
 
-    <section id="formations" class="container container-fluid d-flex flex-column justify-content-around">
+    <section id="formations" class="container container-fluid d-flex flex-column justify-content-around mb-2">
         {{--        <h2>Formations</h2>--}}
         <h2>Formations professionnelles de courte durée</h2>
         <p class="text-justify">
             Les formations de courte durée ont généralement une durée comprise entre 1 et 3
             mois pour permettre à l’apprenant de pouvoir maitriser un domaine spécifique des
-            formations dispensées par le CADEC. Au terme de ces formations l’apprenant reçoit
+            formations dispensées par le CEADEC. Au terme de ces formations l’apprenant reçoit
             un certificat attestant de ses compétences dans le champ de formation suivi.
-            Le CADEC assure la formation pratique et professionnalisante des étudiants, des
+            Le CEADEC assure la formation pratique et professionnalisante des étudiants, des
             jeunes, des micro-entrepreneurs, des fonctionnaires des administrations publiques,
             privées et parapubliques, des cadres des collectivités locales et organisations de la
             société civile dans les divers domaines de développement. Ces formations diffèrent
@@ -205,35 +205,35 @@
         </div>
     </section>
 
-    <section id="publications" class="container container-fluid d-flex flex-column justify-content-around">
-        <h2>Recherche - Action</h2>
-        <p>Le CEADEC met à disposition une série de publications qui visent à partager les connaissances,
-            les recherches et les meilleures pratiques dans divers domaines. Ces documents sont conçus pour
-            informer, éduquer et inspirer les professionnels, les chercheurs, les étudiants, et le grand public.</p>
-        <div class="row mt-20 d-flex justify-content-evenly">
-            <div class="col-lg-4 col-md-6 col-12 publication-home-col">
-                <h3>Articles</h3>
-                Nos articles abordent une variété de sujets d'actualité, tels que l'innovation,
-                le développement des compétences, et les tendances du marchéRédigés par des experts
-                et des professionnels du secteur, ces articles
-                offrent des analyses approfondies et des perspectives nouvelles sur les défis contemporains.
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 publication-home-col">
-                <h3>Études de cas</h3>
-                Nous publions régulièrement des études de cas basées sur des projets réels,
-                illustrant comment les théories et les concepts sont appliqués dans des contextes pratiques.
-                Ces études fournissent des exemples concrets de résolution de problèmes
-                et de prise de décision dans différents secteurs d’activité.
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 publication-home-col">
-                <h3>Rapports</h3>
-                Nos rapports institutionnels comprennent des résultats de recherche, des analyses de marché,
-                et des recommandations stratégiques. Ils sont destinés à guider les décideurs,
-                les entrepreneurs et les organisations dans leurs démarches de développement et d'innovation.
-            </div>
-        </div>
-        <a href="{{url('/publication')}}" class="btn boutton-vers-page">Voir toutes nos publications</a>
-    </section>
+{{--    <section id="publications" class="container container-fluid d-flex flex-column justify-content-around">--}}
+{{--        <h2>Recherche - Action</h2>--}}
+{{--        <p>Le CEADEC met à disposition une série de publications qui visent à partager les connaissances,--}}
+{{--            les recherches et les meilleures pratiques dans divers domaines. Ces documents sont conçus pour--}}
+{{--            informer, éduquer et inspirer les professionnels, les chercheurs, les étudiants, et le grand public.</p>--}}
+{{--        <div class="row mt-20 d-flex justify-content-evenly">--}}
+{{--            <div class="col-lg-4 col-md-6 col-12 publication-home-col">--}}
+{{--                <h3>Articles</h3>--}}
+{{--                Nos articles abordent une variété de sujets d'actualité, tels que l'innovation,--}}
+{{--                le développement des compétences, et les tendances du marchéRédigés par des experts--}}
+{{--                et des professionnels du secteur, ces articles--}}
+{{--                offrent des analyses approfondies et des perspectives nouvelles sur les défis contemporains.--}}
+{{--            </div>--}}
+{{--            <div class="col-lg-4 col-md-6 col-12 publication-home-col">--}}
+{{--                <h3>Études de cas</h3>--}}
+{{--                Nous publions régulièrement des études de cas basées sur des projets réels,--}}
+{{--                illustrant comment les théories et les concepts sont appliqués dans des contextes pratiques.--}}
+{{--                Ces études fournissent des exemples concrets de résolution de problèmes--}}
+{{--                et de prise de décision dans différents secteurs d’activité.--}}
+{{--            </div>--}}
+{{--            <div class="col-lg-4 col-md-6 col-12 publication-home-col">--}}
+{{--                <h3>Rapports</h3>--}}
+{{--                Nos rapports institutionnels comprennent des résultats de recherche, des analyses de marché,--}}
+{{--                et des recommandations stratégiques. Ils sont destinés à guider les décideurs,--}}
+{{--                les entrepreneurs et les organisations dans leurs démarches de développement et d'innovation.--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <a href="{{url('/publication')}}" class="btn boutton-vers-page">Voir toutes nos publications</a>--}}
+{{--    </section>--}}
 
     {{--    <section class="container container-fluid">--}}
     {{--        <h2>Actualités Récentes</h2>--}}
@@ -273,10 +273,6 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
 
 <script src="{{asset('js/script.js')}}"></script>
 

@@ -42,7 +42,7 @@
                 carrière ou sa reconversion, la nécessité de valoriser l’approche par compétences
                 dans les curricula de formation puis l’accompagnement des apprenants sur le
                 marché de travail.
-                Le CADEC travaillera également à la planification et à la mise en œuvre des actions
+                Le CEADEC travaillera également à la planification et à la mise en œuvre des actions
                 de plaidoyers en vue d’emmener les jeunes, les parents, les institutions de formation
                 sur l’intérêt du développement des apprenants et de leurs tuteurs.</p>
         </div>
@@ -54,7 +54,7 @@
                     <div class="goal-card shape-bg-1 sal-animate" data-sal-delay="200" data-sal="slide-up" data-sal-duration="800">
                         <div class="inner">
                             <div class="content">
-                                <h6 class="title"><a class="default-cursor"> Accompagnement pour la connaissance de soi et la réalisation de son autodiagnostic</a></h6>
+                                <h6 class="title"><a class="default-cursor text-justify"> Accompagnement pour la connaissance de soi et la réalisation de son autodiagnostic</a></h6>
                                 <p class="description">La connaissance de soi permet d'identifier vos forces, faiblesses, opportunités et menaces, facilitant ainsi la prise de décision, l'ouverture d'esprit et la libération des pressions environnementales.</p>
                             </div>
                         </div>
@@ -99,7 +99,7 @@
                         <div class="inner">
                             <div class="content">
                                 <h6 class="title"><a class="default-cursor">Accompagnement pour la mise en œuvre de son plan de carrière</a></h6>
-                                <p class="description">Le CADEC accompagne les jeunes dans la mise en œuvre de leur plan de carrière, en suivant le développement de leurs compétences comportementales et techniques. Des formations continues sont proposées, basées sur une approche par compétences, visant à répondre aux besoins opérationnels des participants. Le CADEC collabore avec des entreprises, des ONG, des associations et des collectivités pour s'assurer que les offres de formation correspondent aux besoins du marché du travail.</p>
+                                <p class="description">Le CeADEC accompagne les jeunes dans la mise en œuvre de leur plan de carrière, en suivant le développement de leurs compétences comportementales et techniques. Des formations continues sont proposées, basées sur une approche par compétences, visant à répondre aux besoins opérationnels des participants. Le CEADEC collabore avec des entreprises, des ONG, des associations et des collectivités pour s'assurer que les offres de formation correspondent aux besoins du marché du travail.</p>
                             </div>
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                         <div class="inner">
                             <div class="content">
                                 <h6 class="title"><a class="default-cursor">Appui- Accompagnement aux institutions</a></h6>
-                                <p class="description">Les activités d’appui/conseil du CADEC visent à assister techniquement les institutions pour promouvoir leur développement et améliorer leurs performances, tout en contribuant à identifier et élaborer des programmes de formation adaptés aux besoins réels. Ces prestations s'adressent à diverses institutions, notamment les confessions religieuses, les micro-entreprises, les ONG, les universités, et les collectivités locales. Les interventions se font sous forme de partenariats à long terme ou de consultations ponctuelles, incluant des formations, du coaching et du mentoring.</p>
+                                <p class="description">Les activités d’appui/conseil du CEADEC visent à assister techniquement les institutions pour promouvoir leur développement et améliorer leurs performances, tout en contribuant à identifier et élaborer des programmes de formation adaptés aux besoins réels. Ces prestations s'adressent à diverses institutions, notamment les confessions religieuses, les micro-entreprises, les ONG, les universités, et les collectivités locales. Les interventions se font sous forme de partenariats à long terme ou de consultations ponctuelles, incluant des formations, du coaching et du mentoring.</p>
                             </div>
                         </div>
                     </div>
@@ -140,9 +140,6 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <script src="{{asset('js/script.js')}}"></script>
 

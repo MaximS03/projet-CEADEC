@@ -119,7 +119,7 @@
 
                                         <li>
                                             <i class="bi bi-envelope-at"></i>
-                                            <a href="mailto:cadec@siegecadectogo.org">cadec@siegecadectogo.org</a>
+                                            <a href="mailto:ceadec@siegeceadectogo.org">ceadec@siegeceadectogo.org</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -134,9 +134,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="inner text-center text-uppercase fs-6">
-                        <p>© 2024 <a href="https://CEADEC.org/">Centre d’Appui au Développement des Compétences</a> Tous droits réservés</p>
-                        <p>Développé par <a href="https://etonamktd.dev" target="_blank">Etonam Koutodzo</a></p>
+                    <div class="inner text-center text-uppercase">
+                        <p style="font-size: 10px">© 2024 <a href="https://CEADEC.org/">Centre d’Appui au Développement des Compétences</a> Tous droits réservés</p>
+                        <p style="font-size: 10px">Développé par <a href="tel:22870662166" target="_blank">Etonam Koutodzo</a></p>
+{{--                        <p>Développé par <a href="https://etonamktd.dev" target="_blank">Etonam Koutodzo</a></p>--}}
                     </div>
                 </div>
             </div>
